@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		jTsG3K/Klo6dMv6UFx2zdhoplV8=
+		</data>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<data>
 		NRUW9vTCFV7jxEb+PNFuUU+rirU=
@@ -14,27 +18,38 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I28ukSpFNh01L7mp0DCNXrWPcuY=
+		bMXjT26vFFLwh2tb7wMLQxMIn+g=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wMrcnPb/l+Hjd94OKJMJdRHJGy4=
+		Nj2+d7vVHuWzl94QSwqTeC5m30Q=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5R6jkTIllG12ORM+58AIh2Vlc4I=
+		nCPppAUlAoN/ZKzdx0IUB/kUNKM=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zVWQTrlZtZ/+1PPdsTiB9E1AedM=
+		dRHhxMCWQZwjGLs7YvC2t4jMGPY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		mC+fe6c0+EpBtVKOytc6O1y/SOw=
 		</data>
+		<key>Poppins-Regular.ttf</key>
+		<data>
+		/dMALn2BTuR8HBuEh8csa7s6LQA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EPCOUJ/cnJYVPp0i2WK/dTgBnA7N6GeuA/X1D+kAqNo=
+			</data>
+		</dict>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -53,21 +68,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1PX5GSVdZiGU7A183ssrdgT5ipyUcjqhrSpWQHhTSjE=
+			R9S4xS5pM2jiCKxAo6QqRtQKUUZ2JJUuneRQTovVemE=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zEH4MX4Do0tAKfgZi4m1/g9DYODSfKXWbqQyPbZJNYI=
+			YKRirzlvroRue8nngep+2CgcesXVnWadWg8LZ815oj8=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q4eTQnT4WyvZYFT/Ck8pbI6iv7PPTWsoaRMLDAYsEaM=
+			eXnzauiaxPBWkqsG9iau9oZX5C4CnRW6qFYBxgZqdzU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -75,6 +90,13 @@
 			<key>hash2</key>
 			<data>
 			8c9U0BQhpR27lwJKIHJOj12F/99LiXgaakwI+E6BJOs=
+			</data>
+		</dict>
+		<key>Poppins-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cH/cXIurV6kAYcao7Xtw1f+4L8gQ6ZTnn5C6zokMJVo=
 			</data>
 		</dict>
 	</dict>
