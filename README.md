@@ -45,10 +45,10 @@ terraRT = TerraRT(devId: <YOUR DEV ID>, xAPIKey: <YOUR XAPIKEY> , userId: <YOUR 
 
 **Arguments**
 
-`devId`: String -> Your Terra Dev ID
-`xAPIKey`: String -> Your corresponding X-API-Key for that Dev ID
-`userId`: String -> An already authenticated user ID from Terra
-(OPTIONAL) `referenceId`: String -> A reference ID that you may use to identify a user from your end.
+- `devId`: String -> Your Terra Dev ID
+- `xAPIKey`: String -> Your corresponding X-API-Key for that Dev ID
+- `userId`: String -> An already authenticated user ID from Terra
+- (OPTIONAL) `referenceId`: String -> A reference ID that you may use to identify a user from your end.
 
 After the initialisation, you may now start initialising different connections!
 
@@ -60,7 +60,7 @@ terraRT.initConnection(type: Connections)
 
 **Arguments**
 
-`type`: Connections -> An Enum signifying the connection to make.
+- `type`: Connections -> An Enum signifying the connection to make.
 
 Certain type of connection will require a Bluetooth Connection (`Connections.BLE`). To initialise a bluetooth connection, you can run:
 
@@ -70,8 +70,8 @@ terraRT.startBluetoothScan(type: Connections, callback: @escaping (Bool) -> Void
 
 **Arguments**
 
-`type`: Connections -> An Enum signifying the connection to make.
-`callback`: @escaping (Bool) -> Void -> A callback that will be called with `true` if the connection is successful and `false` if the connection is unsuccessful.
+- `type`: Connections -> An Enum signifying the connection to make.
+- `callback`: @escaping (Bool) -> Void -> A callback that will be called with `true` if the connection is successful and `false` if the connection is unsuccessful.
 
 ### Data Streaming 🔥🔥
 
@@ -81,8 +81,8 @@ Data streaming is done by the function:
 terraRT.startRealtime(type: Connections, dataType: DataTypes)
 ```
 **Arguments**
-`type`: Connections -> An Enum signifying the connection to make.
-`dataType`: DataTypes -> An Enum signifying the datatype you wish to stream. Note if the data type is not supported by the `type` Connections, then it will simply return!
+- `type`: Connections -> An Enum signifying the connection to make.
+- `dataType`: DataTypes -> An Enum signifying the datatype you wish to stream. Note if the data type is not supported by the `type` Connections, then it will simply return!
 
 You may stop the streaming as follows:
 
