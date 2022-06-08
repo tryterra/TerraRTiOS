@@ -65,8 +65,10 @@ terraRT.initConnection(type: Connections)
 Certain type of connection will require a Bluetooth Connection (`Connections.BLE`). To initialise a bluetooth connection, you can run:
 
 ```swift
-terraRT.startBluetoothScan(type: Connections, callback: @escaping (Bool) -> Void)
+let terraBLEWidget: TerraBLEWidget = terraRT.startBluetoothScan(type: Connections, callback: @escaping (Bool) -> Void)
 ```
+
+This will return a SwiftUI View! You can then display this to your user, and have them scan, and connect to a BLE Device! 
 
 **Arguments**
 
