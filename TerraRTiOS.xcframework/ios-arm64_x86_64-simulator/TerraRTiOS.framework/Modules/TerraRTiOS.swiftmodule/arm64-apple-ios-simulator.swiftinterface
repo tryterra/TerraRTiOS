@@ -65,12 +65,12 @@ extension SwiftUI.Color {
     get
   }
 }
-@_Concurrency.MainActor(unsafe) public struct Widget : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct TerraBLEWidget : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(bleManager: TerraRTiOS.TerraBLE, callback: @escaping (Swift.Bool) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s10TerraRTiOS6WidgetV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s10TerraRTiOS0A9BLEWidgetV4bodyQrvp", 0) __
 }
 public struct TokenPayload : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
@@ -97,7 +97,8 @@ public struct GatewaySendPayload : Swift.Encodable {
 }
 public class TerraRT {
   public init(devId: Swift.String, xAPIKey: Swift.String, userId: Swift.String, referenceId: Swift.String? = nil)
-  public func initConnection(type: TerraRTiOS.Connections, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in }) -> TerraRTiOS.Widget?
+  public func initConnection(type: TerraRTiOS.Connections)
+  public func startBluetoothScan(type: TerraRTiOS.Connections, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
   public func stopRealtime(type: TerraRTiOS.Connections)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: TerraRTiOS.DataTypes)
   public func disconnect(type: TerraRTiOS.Connections)
