@@ -17,12 +17,34 @@ The data streamed to your websocket connection (as a developer) will follow the 
     {
       "ts": <String> (In ISOFormat Date Form)
        "val": <Double>
+       "d" <Array<Double>>
     },
     "uid": <String> (user ID)
     "seq": <Int>,
     "t": <String> (Datatype name: Exactly the same as the name of `DataTypes` enum)
 }
 ```
+
+`ts` is the timestamp of the record.
+
+For each datatype, either `val` or `d` is populated.
+
+Datatypes:
+- HEART_RATE: `val` the BPM of each reading
+- STEPS: `val` the amount of accumulated steps 
+- DISTANCE: `val` the accumulated distance in meters
+- FLOORS_CLIMBED: `val` the accumulated floors climbed
+- STEPS_CADENCE: `val` the amount of steps per second taken by the user
+- SPEED: `val` the speed in meter per second of the user
+- ACCELERATION: `d` the acceleration data of the device. 
+  - d[0] -> acceleration in x direction
+  - d[1] -> acceleration in y direction
+  - d[2] -> acceleration in z direction
+  
+- GYROSCOPE: `d` the rotation rate of the device.
+  - d[0] -> the rotation rate in x axis
+  - d[1] -> the rotation rate in y axis
+  - d[2] -> the rotation rate in z axis
 
 ## Installation
 
@@ -97,6 +119,8 @@ And also disconnect from the connection as follows:
 ```swift
 terraRT.disconnect(type: Connections)
 ```
+
+
 
 
 
