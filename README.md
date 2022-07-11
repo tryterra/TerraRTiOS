@@ -54,6 +54,7 @@ You can use Swift Package Manager and add this github repo as a dependency to yo
 You may now run `import TerraRTiOS`!
 
 You will also need `Privacy - Bluetooth Always Usage Description` under your `info.plist` file. 
+You will also need `Privacy - Motion Usage Description` under your `info.plist` file if you wish to use `Connections.APPLE` connection!
 
 ## Usage
 
