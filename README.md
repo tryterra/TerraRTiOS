@@ -2,6 +2,13 @@
 
 It's finally here: The realtime streaming framework for iOS through Terra!!!!
 
+
+## Quickstart
+
+A demo app is given here for you to get started quickly!
+
+https://github.com/tryterra/TerraRTiOS-Demo
+
 ## A Worthy Note
 
 This packages uses Bluetooth Low Energy (BLE) and Bluetooth services. Thus only devices that support these can use the library! These will be requested as permissions upon initialisation of the package.
