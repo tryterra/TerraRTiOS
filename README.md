@@ -70,15 +70,8 @@ The package is controlled mainly by a class called `TerraRT`
 You may initialise as such:
 
 ```swift
-terraRT = TerraRT(devId: <YOUR DEV ID>, xAPIKey: <YOUR XAPIKEY> , userId: <YOUR TERRA USER ID>, referenceId: <YOUR REFERENCE ID>
+terraRT = TerraRT()
 ```
-
-**Arguments**
-
-- `devId`: String -> Your Terra Dev ID
-- `xAPIKey`: String -> Your corresponding X-API-Key for that Dev ID
-- `userId`: String -> An already authenticated user ID from Terra
-- (OPTIONAL) `referenceId`: String -> A reference ID that you may use to identify a user from your end.
 
 After the initialisation, you may now start initialising different connections!
 
@@ -110,11 +103,12 @@ This will return a SwiftUI View! You can then display this to your user, and hav
 Data streaming is done by the function:
 
 ```swift
-terraRT.startRealtime(type: Connections, dataType: DataTypes)
+terraRT.startRealtime(type: Connections, token: String, dataType: Set<DataTypes>)
 ```
 **Arguments**
 - `type`: Connections -> An Enum signifying the connection to make.
-- `dataType`: DataTypes -> An Enum signifying the datatype you wish to stream. Note if the data type is not supported by the `type` Connections, then it will simply return!
+- `token`: String -> A user token for authentication to Websocket API. This can be generated [here](https://docs.tryterra.co/reference/generate-user-token)
+- `dataType`: Set<DataTypes> -> An set of Enum signifying the datatypes you wish to stream. Note if the data type is not supported by the `type` Connections, then it will simply return!
 
 You may stop the streaming as follows:
 
