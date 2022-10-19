@@ -11,7 +11,7 @@ https://github.com/tryterra/TerraRTiOS-Demo
 
 ## A Worthy Note
 
-This packages uses Bluetooth Low Energy (BLE) and Bluetooth services. Thus only devices that support these can use the library! These will be requested as permissions upon initialisation of the package.
+This packages uses Bluetooth Low Energy (BLE) and Bluetooth services. These will be requested as permissions upon initialisation of the package.
 
 The package streams real time data through **Websockets** and is hosted by us! You can learn more about it here on our [docs](https://docs.tryterra.co/reference/using-the-websocket-api).
 
