@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NxYpsxYUAMjbxHJIG0/UUChhkpU=
+		KCie+q71Z6+FsZZfNRte5hRCfCI=
 		</data>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E+pEJaByy4Xk0i1fHhdkJYEgWzo=
+		5KMevGn/qU41ZZIFqYoHAAfTI4s=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		duxsQa9CsZWdRGRPlEUEJM7NXx0=
+		fd8g1LkvVWeLvGHuOoTUQlK88gU=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CVWF7qgWX4D3OWidHKvcfTHBbDw=
+		LbQeW0j8yNraHYb/69s4ZDsm3SE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCT8aSRavG4MiR7WYzv+Zt0kNza78TkbwjrsdB4DMp8=
+			mKT4Xf5DyX4vnQUbeaknfU+PruFFdI2NzKuRyakxbZ0=
 			</data>
 		</dict>
 		<key>Headers/TerraRTiOS-Swift.h</key>
@@ -75,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsleFPNUmuJ8KWBcfQr/Mf5Kn/XkJduN0J70RcWPpvE=
+			L3FNPhQVqJkIn69wzLwM4J/Zu7P+wNqxvS0AP4x9Spc=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptxdID7GovDB9lH/o81CR/m9qygLWBi8rdbmNAmgOPo=
+			LsNhsUlcAfGQP+DgDVOVKVL9mCT3RON/6j9NmOTqat0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

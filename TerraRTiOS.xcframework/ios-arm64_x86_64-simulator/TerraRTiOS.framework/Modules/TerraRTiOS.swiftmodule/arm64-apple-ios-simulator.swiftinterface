@@ -8,11 +8,21 @@ import Foundation
 import Swift
 import SwiftUI
 @_exported import TerraRTiOS
+import UIKit
+import WatchConnectivity
 import _Concurrency
 public struct HeartBeatIntervalPayload : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HeartBeatInterval : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct TerraAuthResponse : Swift.Codable {
+  public var status: Swift.String
+  public var user_id: Swift.String?
+  public var reference_id: Swift.String?
+  public var message: Swift.String?
+  public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 public enum TerraError : Swift.Error {
@@ -27,7 +37,7 @@ public enum TerraError : Swift.Error {
     get
   }
 }
-public enum DataTypes : Swift.String {
+public enum DataTypes : Swift.String, Swift.Codable {
   case HEART_RATE
   case ECG
   case STEPS
@@ -46,9 +56,18 @@ public enum DataTypes : Swift.String {
     get
   }
 }
+public struct GatewaySendPayload : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
 @_hasMissingDesignatedInitializers public class GattAttributes {
   public func lookup(_ name: Swift.String) -> CoreBluetooth.CBUUID?
   public func dataName(_ cbuuid: CoreBluetooth.CBUUID) -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WebSocketManager {
+  public func openConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func closeConnection()
+  public func sendData(payload: TerraRTiOS.DataPayload, type: Swift.String)
   @objc deinit
 }
 extension SwiftUI.Color {
@@ -89,15 +108,29 @@ public enum Opcode : Swift.Int {
     get
   }
 }
-public struct GatewaySendPayload : Swift.Encodable {
+public struct Identify : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct IdentifyPayload : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Update : Swift.Codable {
+  public var ts: Swift.String?
+  public var val: Swift.Double?
+  public var type: Swift.String?
+  public var d: [Swift.Double]?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public class TerraRT {
-  public init()
-  public func initConnection(type: TerraRTiOS.Connections)
+  public init(devId: Swift.String, referenceId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func initConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void = {(success) -> Void in})
   public func startBluetoothScan(type: TerraRTiOS.Connections, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
   public func stopRealtime(type: TerraRTiOS.Connections)
-  public func startRealtime(type: TerraRTiOS.Connections, token: Swift.String, dataType: Swift.Set<TerraRTiOS.DataTypes>)
+  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String)
+  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func disconnect(type: TerraRTiOS.Connections)
   @objc deinit
 }
@@ -114,20 +147,6 @@ public enum Connections : Swift.String {
     get
   }
 }
-public struct Identify : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct IdentifyPayload : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class WebSocketManager {
-  public func openConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
-  public func closeConnection()
-  public func sendData(payload: TerraRTiOS.DataPayload, type: Swift.String)
-  @objc deinit
-}
 public struct Device : Swift.Identifiable {
   public init(deviceName: Swift.String, deviceUUID: Swift.String)
   public var id: Swift.String {
@@ -135,7 +154,6 @@ public struct Device : Swift.Identifiable {
   }
   public typealias ID = Swift.String
 }
-public func dataPayloadBuilder(timestamp: Swift.String, value: Swift.Double, data: [Swift.Double]) -> TerraRTiOS.DataPayload
 public struct DataPayload : Swift.Codable {
   public var ts: Swift.String
   public var val: Swift.Double?

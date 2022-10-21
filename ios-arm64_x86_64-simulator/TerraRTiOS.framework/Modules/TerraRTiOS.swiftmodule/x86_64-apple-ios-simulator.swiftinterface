@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
 import Combine
 import CoreBluetooth
 import CoreMotion
@@ -37,7 +37,7 @@ public enum TerraError : Swift.Error {
     get
   }
 }
-public enum DataTypes : Swift.String, Swift.Codable {
+public enum DataTypes : Swift.String {
   case HEART_RATE
   case ECG
   case STEPS
@@ -116,21 +116,22 @@ public struct IdentifyPayload : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct Update : Swift.Codable {
+@_hasMissingDesignatedInitializers public class Update : Swift.Codable {
   public var ts: Swift.String?
   public var val: Swift.Double?
   public var type: Swift.String?
-  public var d: [Swift.Double]?
+  public var user_id: Swift.String?
+  @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public class TerraRT {
-  public init(devId: Swift.String, referenceId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
-  public func initConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void = {(success) -> Void in})
+  public init()
+  public func initConnection(type: TerraRTiOS.Connections, token: Swift.String)
   public func startBluetoothScan(type: TerraRTiOS.Connections, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
   public func stopRealtime(type: TerraRTiOS.Connections)
-  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String)
-  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
+  public func startRealtime(type: TerraRTiOS.Connections, token: Swift.String, dataType: Swift.Set<TerraRTiOS.DataTypes>)
+  public func startRealTime(type: TerraRTiOS.Connections, callback: (TerraRTiOS.Update) -> Swift.Void)
   public func disconnect(type: TerraRTiOS.Connections)
   @objc deinit
 }
@@ -154,6 +155,7 @@ public struct Device : Swift.Identifiable {
   }
   public typealias ID = Swift.String
 }
+public func dataPayloadBuilder(timestamp: Swift.String, value: Swift.Double, data: [Swift.Double]) -> TerraRTiOS.DataPayload
 public struct DataPayload : Swift.Codable {
   public var ts: Swift.String
   public var val: Swift.Double?
