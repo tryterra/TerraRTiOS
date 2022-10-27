@@ -125,9 +125,10 @@ public struct Update : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public class TerraRT {
-  public init(devId: Swift.String, referenceId: Swift.String? = nil, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public init(devId: Swift.String, referenceId: Swift.String?, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func getUserid() -> Swift.String?
   public func initConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void = {(success) -> Void in})
-  public func startBluetoothScan(type: TerraRTiOS.Connections, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
+  public func startBluetoothScan(type: TerraRTiOS.Connections, bluetoothLowEnergyFromCache: Swift.Bool = false, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
   public func stopRealtime(type: TerraRTiOS.Connections)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
