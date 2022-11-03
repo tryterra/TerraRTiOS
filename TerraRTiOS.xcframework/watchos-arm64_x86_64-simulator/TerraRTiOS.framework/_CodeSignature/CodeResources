@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Fg5zOHjepXZan4ql3HBWTWP15I4=
+		ojpnhtkie6oADaofrjNGQbDLZd0=
 		</data>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3kKv+E5sO7yNL+AG2voMNa15tWk=
+		VgJ5k7LsqPAH0N/v15KmoUKr3BQ=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		KOdoCJy/hCBOPy2iaZP6NXHjX/Y=
+		xWRh+8/+rnAuygUqz41sDx/KvnY=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		7zNrI90c1819B5rlL8WhQ1Vqug8=
+		G8gmgKLs67K2O/NWVb1vCMMwd9w=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		yQ/RY7LFsH4P1fvZkrXu1QDgcJE=
+		jiJ+4UiBvF6O6SRyiN1UN8xwyn4=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		7zNrI90c1819B5rlL8WhQ1Vqug8=
+		G8gmgKLs67K2O/NWVb1vCMMwd9w=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		pKatGwDQrF2CZlWGIZQwkR1ws1w=
+		8ogeyWO4h3yVecaf2q/XZqUCdas=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		KOdoCJy/hCBOPy2iaZP6NXHjX/Y=
+		xWRh+8/+rnAuygUqz41sDx/KvnY=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		VenO8sBphNo85q2ST/YkBV+22ro=
+		q9321w/Sk5zr39MWyZhiyv09BfM=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		G2wdLP8JaOLObiFj0CwP/eWKkU8=
+		y7OZntx4BcvTr2/h5vUdRSu37Aw=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		VenO8sBphNo85q2ST/YkBV+22ro=
+		q9321w/Sk5zr39MWyZhiyv09BfM=
 		</data>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		SsuHE+XrSn8mJrrEdZLlmvGbfNQ=
+		v9LAk419V4elIAIlQKY1eEdQ98c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uV1ashX7M9HC+Qw5uTHF0VOkqtLqwXKOv6pqYAv0dOE=
+			A5yyMmMhNDs06+QEosiKhjLEVz+DlHeIEsJzX99UWf4=
 			</data>
 		</dict>
 		<key>Headers/TerraRTiOS-Swift.h</key>
@@ -92,74 +92,74 @@
 			rtdKQPhi/xW9X6I0YQ47xr7GBgq8tiPDEwgPQD1BRm0=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o+LWnidwDYn+SbUrq8u3VOHJxCEjxdozfrP1KdbyTqU=
+			m1EOsSquThqio9tCU51o30ZWtzA98pk4HkXSgdKF0J0=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r29Y5DY2qRfliOybAnAPzNylDDp9wimDZKkyIj6/shk=
+			C3ISHNtYhVxDvCS+Dc3j5SkKDrN8L5X1YIgU4up4KVY=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sTgzDoGJ9H2qHK6KUbnao9K8fN/SUg1A4+vPx+U9T5Y=
+			ipPcDNt2tSOxYq4B2iGDOppH45qLOpaDGJqUxII+nPA=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r29Y5DY2qRfliOybAnAPzNylDDp9wimDZKkyIj6/shk=
+			C3ISHNtYhVxDvCS+Dc3j5SkKDrN8L5X1YIgU4up4KVY=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jSpymVsU88twYJMN1ciGLMj4f7fVCj6QWN5cgXHk9+Y=
+			dhuh/45mr5K+l5pfkM52KKfyibDOvo04Qwq1F/mEgZ0=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o+LWnidwDYn+SbUrq8u3VOHJxCEjxdozfrP1KdbyTqU=
+			m1EOsSquThqio9tCU51o30ZWtzA98pk4HkXSgdKF0J0=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sul19WKJSBREQVxYEF5WJf9Y6m8KHZtS/nu+REcIjs=
+			3ufy0ZG+YU/CAbwmWD+Ky9FgzjB2iaYBeRtVrh+PLqI=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqzoPcj3phOHKZFFCBNiU9AXkVu0zU65YcGUbN/FDTc=
+			DcNsK9DwOVOzFhiT3Oau7BLFa2k1oHoJhPyhNeXrbzw=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sul19WKJSBREQVxYEF5WJf9Y6m8KHZtS/nu+REcIjs=
+			3ufy0ZG+YU/CAbwmWD+Ky9FgzjB2iaYBeRtVrh+PLqI=
 			</data>
 		</dict>
-		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			49GxQT7FwYDb/iiA78Ep+ybkQh3bbvkDQ6vyfbCYdBA=
+			llUtqGino5wR5PPDXreIfK4g+wqWzr7NbNgcSVG7b+g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,0 +1,135 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64_32-apple-watchos7.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CoreBluetooth
+import CoreMotion
+import Foundation
+import HealthKit
+import Swift
+import SwiftUI
+@_exported import TerraRTiOS
+import UIKit
+import WatchConnectivity
+import _Concurrency
+import _StringProcessing
+public enum WorkoutTypes : Swift.String {
+  case BADMINTON
+  case BARBELL_SHOULDER_PRESS
+  case BASEBALL
+  case BASKETBALL
+  case BENCH_PRESS
+  case BENCH_SIT_UP
+  case BIKING
+  case BIKING_STATIONARY
+  case BOOT_CAMP
+  case BOXING
+  case BURPEE
+  case CALISTHENICS
+  case CRICKET
+  case CRUNCH
+  case DANCING
+  case DEADLIFT
+  case DUMBBELL_CURL_RIGHT_ARM
+  case DUMBBELL_CURL_LEFT_ARM
+  case DUMBBELL_FRONT_RAISE
+  case DUMBBELL_LATERAL_RAISE
+  case DUMBBELL_TRICEPS_EXTENSION_LEFT_ARM
+  case DUMBBELL_TRICEPS_EXTENSION_RIGHT_ARM
+  case DUMBBELL_TRICEPS_EXTENSION_TWO_ARM
+  case ELLIPTICAL
+  case EXERCISE_CLASS
+  case FENCING
+  case FRISBEE_DISC
+  case FOOTBALL_AMERICAN
+  case FOOTBALL_AUSTRALIAN
+  case FORWARD_TWIST
+  case GOLF
+  case GUIDED_BREATHING
+  case GYMNASTICS
+  case HANDBALL
+  case HIGH_INTENSITY_INTERVAL_TRAINING
+  case HIKING
+  case ICE_HOCKEY
+  case ICE_SKATING
+  case JUMP_ROPE
+  case JUMPING_JACK
+  case LAT_PULL_DOWN
+  case LUNGE
+  case MARTIAL_ARTS
+  case MEDITATION
+  case OTHER
+  case PADDLING
+  case PILATES
+  case PLANK
+  case RACQUETBALL
+  case ROCK_CLIMBING
+  case ROLLER_HOCKEY
+  case ROWING
+  case ROWING_MACHINE
+  case RUNNING
+  case RUNNING_TREADMILL
+  case RUGBY
+  case SAILING
+  case SKATING
+  case SKIING
+  case SNOWBOARDING
+  case SNOWSHOEING
+  case SOCCER
+  case SOFTBALL
+  case SQUASH
+  case SQUAT
+  case STAIR_CLIMBING
+  case STAIR_CLIMBING_MACHINE
+  case STRENGTH_TRAINING
+  case STRETCHING
+  case SURFING
+  case SWIMMING_OPEN_WATER
+  case SWIMMING_POOL
+  case TABLE_TENNIS
+  case TENNIS
+  case UPPER_TWIST
+  case VOLLEYBALL
+  case WALKING
+  case WATER_POLO
+  case WEIGHTLIFTING
+  case WORKOUT
+  case YOGA
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ReadTypes : Swift.String {
+  case WORKOUT
+  case STEPS
+  case DISTANCE
+  case LOCATION
+  case CALORIES
+  case HEART_RATE
+  case HEART_RATE_VARIABILITY
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class Terra {
+  public init() throws
+  public func connect()
+  public func startExercise(forType workoutType: TerraRTiOS.WorkoutTypes, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func pauseExercise()
+  public func resumeExercise()
+  public func stopExercise(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func startStream(forDataTypes dTypes: Swift.Set<TerraRTiOS.ReadTypes>, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func stopStream()
+  @objc deinit
+}
+extension TerraRTiOS.WorkoutTypes : Swift.Equatable {}
+extension TerraRTiOS.WorkoutTypes : Swift.Hashable {}
+extension TerraRTiOS.WorkoutTypes : Swift.RawRepresentable {}
+extension TerraRTiOS.ReadTypes : Swift.Equatable {}
+extension TerraRTiOS.ReadTypes : Swift.Hashable {}
+extension TerraRTiOS.ReadTypes : Swift.RawRepresentable {}

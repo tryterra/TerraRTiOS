@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NxYpsxYUAMjbxHJIG0/UUChhkpU=
+		Fg5zOHjepXZan4ql3HBWTWP15I4=
 		</data>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<data>
-		vvvhH1PRiNIKBgvXG1Eh1+lKyNA=
+		QbUQh3CWjhiG3z7tvMCuksOtBpo=
 		</data>
 		<key>Headers/TerraRTiOS.h</key>
 		<data>
@@ -18,23 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5KMevGn/qU41ZZIFqYoHAAfTI4s=
+		nH191JwBJAtEf3g1U/F+RCk1Iy0=
+		</data>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		eZyaI26tq99eVkCC4fwr/DsCyp0=
+		</data>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		gvb6T4Bk4CJzIXPWEce8hRj29X8=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		F5sf2rzPsTq/CvZvjWzSsLfMlXc=
+		JcwFI8eW42EnFxrCPjZ6rt1SpJ0=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+LdqW8GsZUnl43TzoWrmYP5uE/4=
+		gvb6T4Bk4CJzIXPWEce8hRj29X8=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Hbv90dmFtPfJlMZm/isUQKXwOLc=
+		C+C21SaCFvPpQKkSPBS3Psk81fE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mC+fe6c0+EpBtVKOytc6O1y/SOw=
+		QYewUoO2UY87G5pcbtbsL4g19OI=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -47,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCT8aSRavG4MiR7WYzv+Zt0kNza78TkbwjrsdB4DMp8=
+			uV1ashX7M9HC+Qw5uTHF0VOkqtLqwXKOv6pqYAv0dOE=
 			</data>
 		</dict>
 		<key>Headers/TerraRTiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBekPPw9L1Y/7uW5Up53WIyugYKNND3xDBF0BgByG7I=
+			v3sxxMF8Ex3bzi7cW4IUSsWOK05Czpf06g7z0glHzp8=
 			</data>
 		</dict>
 		<key>Headers/TerraRTiOS.h</key>
@@ -64,32 +72,46 @@
 			rtdKQPhi/xW9X6I0YQ47xr7GBgq8tiPDEwgPQD1BRm0=
 			</data>
 		</dict>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uaL1bavP+wlewTdBoNF+ldXDD0SqUoVdqVsja63ercE=
+			</data>
+		</dict>
+		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hr1yWfCdkbj7x8Kc5TLLdJ2TUwTZ7fZm2o3iaWRBCG8=
+			</data>
+		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W0ezVqzvhiCBZSnGb8RDjFwH1AaXETn8j0zTbjLhjU4=
+			DaQNfmXlUQMuDNmrPRPn4t3mXwf5/PSWpVwHkQBMOOA=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v17u7Oh273YPnVZhKnexUuAKhk3Y4OT4o99x1WVOBIs=
+			Hr1yWfCdkbj7x8Kc5TLLdJ2TUwTZ7fZm2o3iaWRBCG8=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyfnhWMdKmnwV3ggnA53NrFrmgbzNcLi5ueldsjt9CE=
+			owLHCDy+9Ks13u2J5jNnV4yKOUuO9tEfmRH8bKdkXZg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8c9U0BQhpR27lwJKIHJOj12F/99LiXgaakwI+E6BJOs=
+			d2cndLt/H5+dJx1BsAwDfvCy/3leY3l9qIdzalB7NGc=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>

@@ -1,0 +1,5638 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HeartBeatIntervalPayload",
+        "printedName": "HeartBeatIntervalPayload",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeartBeatIntervalPayload",
+                "printedName": "TerraRTiOS.HeartBeatIntervalPayload",
+                "usr": "s:10TerraRTiOS24HeartBeatIntervalPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS24HeartBeatIntervalPayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS24HeartBeatIntervalPayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS24HeartBeatIntervalPayloadV",
+        "mangledName": "$s10TerraRTiOS24HeartBeatIntervalPayloadV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HeartBeatInterval",
+        "printedName": "HeartBeatInterval",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeartBeatInterval",
+                "printedName": "TerraRTiOS.HeartBeatInterval",
+                "usr": "s:10TerraRTiOS17HeartBeatIntervalV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS17HeartBeatIntervalV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS17HeartBeatIntervalV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS17HeartBeatIntervalV",
+        "mangledName": "$s10TerraRTiOS17HeartBeatIntervalV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TerraAuthResponse",
+        "printedName": "TerraAuthResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV6statusSSvp",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV6statusSSvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV6statusSSvg",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV6statusSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV6statusSSvs",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV6statusSSvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV6statusSSvM",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV6statusSSvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user_id",
+            "printedName": "user_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV7user_idSSSgvp",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV7user_idSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7user_idSSSgvg",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7user_idSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7user_idSSSgvs",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7user_idSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7user_idSSSgvM",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7user_idSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference_id",
+            "printedName": "reference_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV12reference_idSSSgvp",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV12reference_idSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV12reference_idSSSgvg",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV12reference_idSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV12reference_idSSSgvs",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV12reference_idSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV12reference_idSSSgvM",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV12reference_idSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV7messageSSSgvp",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV7messageSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7messageSSSgvg",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7messageSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7messageSSSgvs",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7messageSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV7messageSSSgvM",
+                "mangledName": "$s10TerraRTiOS0A12AuthResponseV7messageSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TerraAuthResponse",
+                "printedName": "TerraRTiOS.TerraAuthResponse",
+                "usr": "s:10TerraRTiOS0A12AuthResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A12AuthResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS0A12AuthResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS0A12AuthResponseV",
+        "mangledName": "$s10TerraRTiOS0A12AuthResponseV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TerraError",
+        "printedName": "TerraError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "UnknownOpcode",
+            "printedName": "UnknownOpcode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraError.Type) -> TerraRTiOS.TerraError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraError",
+                    "printedName": "TerraRTiOS.TerraError",
+                    "usr": "s:10TerraRTiOS0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraError",
+                        "printedName": "TerraRTiOS.TerraError",
+                        "usr": "s:10TerraRTiOS0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A5ErrorO13UnknownOpcodeyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO13UnknownOpcodeyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "FeatureNotSupported",
+            "printedName": "FeatureNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraError.Type) -> TerraRTiOS.TerraError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraError",
+                    "printedName": "TerraRTiOS.TerraError",
+                    "usr": "s:10TerraRTiOS0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraError",
+                        "printedName": "TerraRTiOS.TerraError",
+                        "usr": "s:10TerraRTiOS0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A5ErrorO19FeatureNotSupportedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO19FeatureNotSupportedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DataTypeNotSupportedForDevice",
+            "printedName": "DataTypeNotSupportedForDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraError.Type) -> TerraRTiOS.TerraError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraError",
+                    "printedName": "TerraRTiOS.TerraError",
+                    "usr": "s:10TerraRTiOS0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraError",
+                        "printedName": "TerraRTiOS.TerraError",
+                        "usr": "s:10TerraRTiOS0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A5ErrorO29DataTypeNotSupportedForDeviceyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO29DataTypeNotSupportedForDeviceyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DeviceNotConnected",
+            "printedName": "DeviceNotConnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraError.Type) -> TerraRTiOS.TerraError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraError",
+                    "printedName": "TerraRTiOS.TerraError",
+                    "usr": "s:10TerraRTiOS0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraError",
+                        "printedName": "TerraRTiOS.TerraError",
+                        "usr": "s:10TerraRTiOS0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A5ErrorO18DeviceNotConnectedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO18DeviceNotConnectedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "UnknownDevice",
+            "printedName": "UnknownDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraError.Type) -> TerraRTiOS.TerraError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraError",
+                    "printedName": "TerraRTiOS.TerraError",
+                    "usr": "s:10TerraRTiOS0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraError",
+                        "printedName": "TerraRTiOS.TerraError",
+                        "usr": "s:10TerraRTiOS0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A5ErrorO13UnknownDeviceyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO13UnknownDeviceyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TerraError",
+                "printedName": "TerraRTiOS.TerraError",
+                "usr": "s:10TerraRTiOS0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TerraError",
+                "printedName": "TerraRTiOS.TerraError",
+                "usr": "s:10TerraRTiOS0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A5ErrorO9hashValueSivp",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO9hashValueSivp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A5ErrorO9hashValueSivg",
+                "mangledName": "$s10TerraRTiOS0A5ErrorO9hashValueSivg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10TerraRTiOS0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS0A5ErrorO",
+        "mangledName": "$s10TerraRTiOS0A5ErrorO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataTypes",
+        "printedName": "DataTypes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HEART_RATE",
+            "printedName": "HEART_RATE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO10HEART_RATEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO10HEART_RATEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "ECG",
+            "printedName": "ECG",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO3ECGyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO3ECGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "STEPS",
+            "printedName": "STEPS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO5STEPSyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO5STEPSyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HRV",
+            "printedName": "HRV",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO3HRVyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO3HRVyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "CALORIES",
+            "printedName": "CALORIES",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO8CALORIESyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO8CALORIESyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "LOCATION",
+            "printedName": "LOCATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO8LOCATIONyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO8LOCATIONyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "SPEED",
+            "printedName": "SPEED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO5SPEEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO5SPEEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DISTANCE",
+            "printedName": "DISTANCE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO8DISTANCEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO8DISTANCEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "STEPS_CADENCE",
+            "printedName": "STEPS_CADENCE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO13STEPS_CADENCEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO13STEPS_CADENCEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "FLOORS_CLIMBED",
+            "printedName": "FLOORS_CLIMBED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO14FLOORS_CLIMBEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO14FLOORS_CLIMBEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "GYROSCOPE",
+            "printedName": "GYROSCOPE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO9GYROSCOPEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO9GYROSCOPEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "ACCELERATION",
+            "printedName": "ACCELERATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO12ACCELERATIONyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO12ACCELERATIONyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.DataTypes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS9DataTypesO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10TerraRTiOS9DataTypesO8rawValueACSgSS_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS9DataTypesO8rawValueSSvp",
+            "mangledName": "$s10TerraRTiOS9DataTypesO8rawValueSSvp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS9DataTypesO8rawValueSSvg",
+                "mangledName": "$s10TerraRTiOS9DataTypesO8rawValueSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS9DataTypesO",
+        "mangledName": "$s10TerraRTiOS9DataTypesO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GatewaySendPayload",
+        "printedName": "GatewaySendPayload",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS18GatewaySendPayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS18GatewaySendPayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS18GatewaySendPayloadV",
+        "mangledName": "$s10TerraRTiOS18GatewaySendPayloadV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GattAttributes",
+        "printedName": "GattAttributes",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "lookup",
+            "printedName": "lookup(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreBluetooth.CBUUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBUUID",
+                    "printedName": "CoreBluetooth.CBUUID",
+                    "usr": "c:objc(cs)CBUUID"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS14GattAttributesC6lookupySo6CBUUIDCSgSSF",
+            "mangledName": "$s10TerraRTiOS14GattAttributesC6lookupySo6CBUUIDCSgSSF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataName",
+            "printedName": "dataName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBUUID",
+                "printedName": "CoreBluetooth.CBUUID",
+                "usr": "c:objc(cs)CBUUID"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS14GattAttributesC8dataNameySSSgSo6CBUUIDCF",
+            "mangledName": "$s10TerraRTiOS14GattAttributesC8dataNameySSSgSo6CBUUIDCF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10TerraRTiOS14GattAttributesC",
+        "mangledName": "$s10TerraRTiOS14GattAttributesC",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebSocketManager",
+        "printedName": "WebSocketManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openConnection",
+            "printedName": "openConnection(token:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS16WebSocketManagerC14openConnection5token10completionySS_ySbctF",
+            "mangledName": "$s10TerraRTiOS16WebSocketManagerC14openConnection5token10completionySS_ySbctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeConnection",
+            "printedName": "closeConnection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS16WebSocketManagerC15closeConnectionyyF",
+            "mangledName": "$s10TerraRTiOS16WebSocketManagerC15closeConnectionyyF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendData",
+            "printedName": "sendData(payload:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DataPayload",
+                "printedName": "TerraRTiOS.DataPayload",
+                "usr": "s:10TerraRTiOS11DataPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS16WebSocketManagerC8sendData7payload4typeyAA0H7PayloadV_SStF",
+            "mangledName": "$s10TerraRTiOS16WebSocketManagerC8sendData7payload4typeyAA0H7PayloadV_SStF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10TerraRTiOS16WebSocketManagerC",
+        "mangledName": "$s10TerraRTiOS16WebSocketManagerC",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TerraBLEWidget",
+        "printedName": "TerraBLEWidget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A9BLEWidgetV4bodyQrvp",
+            "mangledName": "$s10TerraRTiOS0A9BLEWidgetV4bodyQrvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A9BLEWidgetV4bodyQrvg",
+                "mangledName": "$s10TerraRTiOS0A9BLEWidgetV4bodyQrvg",
+                "moduleName": "TerraRTiOS",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS0A9BLEWidgetV",
+        "mangledName": "$s10TerraRTiOS0A9BLEWidgetV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Opcode",
+        "printedName": "Opcode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "HEARTRATE",
+            "printedName": "HEARTRATE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO9HEARTRATEyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO9HEARTRATEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HEARTBEAT_ACK",
+            "printedName": "HEARTBEAT_ACK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO13HEARTBEAT_ACKyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO13HEARTBEAT_ACKyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HELLO",
+            "printedName": "HELLO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO5HELLOyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO5HELLOyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "IDENTIFY",
+            "printedName": "IDENTIFY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO8IDENTIFYyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO8IDENTIFYyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "READY",
+            "printedName": "READY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO5READYyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO5READYyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DISPATCH",
+            "printedName": "DISPATCH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO8DISPATCHyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO8DISPATCHyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "SUBMIT",
+            "printedName": "SUBMIT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO6SUBMITyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO6SUBMITyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "REPLAY",
+            "printedName": "REPLAY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO6REPLAYyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO6REPLAYyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.Opcode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6OpcodeO8rawValueSivp",
+            "mangledName": "$s10TerraRTiOS6OpcodeO8rawValueSivp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6OpcodeO8rawValueSivg",
+                "mangledName": "$s10TerraRTiOS6OpcodeO8rawValueSivg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS6OpcodeO",
+        "mangledName": "$s10TerraRTiOS6OpcodeO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Identify",
+        "printedName": "Identify",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identify",
+                "printedName": "TerraRTiOS.Identify",
+                "usr": "s:10TerraRTiOS8IdentifyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS8IdentifyV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS8IdentifyV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS8IdentifyV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS8IdentifyV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS8IdentifyV",
+        "mangledName": "$s10TerraRTiOS8IdentifyV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentifyPayload",
+        "printedName": "IdentifyPayload",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifyPayload",
+                "printedName": "TerraRTiOS.IdentifyPayload",
+                "usr": "s:10TerraRTiOS15IdentifyPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS15IdentifyPayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS15IdentifyPayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS15IdentifyPayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS15IdentifyPayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS15IdentifyPayloadV",
+        "mangledName": "$s10TerraRTiOS15IdentifyPayloadV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Update",
+        "printedName": "Update",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ts",
+            "printedName": "ts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "val",
+            "printedName": "val",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV3valSdSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "d",
+            "printedName": "d",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Double]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Update",
+                "printedName": "TerraRTiOS.Update",
+                "usr": "s:10TerraRTiOS6UpdateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6UpdateV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS6UpdateV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS6UpdateV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS6UpdateV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS6UpdateV",
+        "mangledName": "$s10TerraRTiOS6UpdateV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TerraRT",
+        "printedName": "TerraRT",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(devId:referenceId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TerraRT",
+                "printedName": "TerraRTiOS.TerraRT",
+                "usr": "s:10TerraRTiOS0A2RTC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS0A2RTC5devId09referenceF010completionACSS_SSSgySbctcfc",
+            "mangledName": "$s10TerraRTiOS0A2RTC5devId09referenceF010completionACSS_SSSgySbctcfc",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserid",
+            "printedName": "getUserid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC9getUseridSSSgyF",
+            "mangledName": "$s10TerraRTiOS0A2RTC9getUseridSSSgyF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initConnection",
+            "printedName": "initConnection(token:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC14initConnection5token10completionySS_ySbctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC14initConnection5token10completionySS_ySbctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectWithWatchOS",
+            "printedName": "connectWithWatchOS()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC016connectWithWatchC0yyKF",
+            "mangledName": "$s10TerraRTiOS0A2RTC016connectWithWatchC0yyKF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBluetoothScan",
+            "printedName": "startBluetoothScan(type:bluetoothLowEnergyFromCache:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.TerraBLEWidget?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraBLEWidget",
+                    "printedName": "TerraRTiOS.TerraBLEWidget",
+                    "usr": "s:10TerraRTiOS0A9BLEWidgetV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC18startBluetoothScan4type27bluetoothLowEnergyFromCache8callbackAA0A9BLEWidgetVSgAA11ConnectionsO_SbySbctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC18startBluetoothScan4type27bluetoothLowEnergyFromCache8callbackAA0A9BLEWidgetVSgAA11ConnectionsO_SbySbctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRealtime",
+            "printedName": "stopRealtime(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC12stopRealtime4typeyAA11ConnectionsO_tF",
+            "mangledName": "$s10TerraRTiOS0A2RTC12stopRealtime4typeyAA11ConnectionsO_tF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRealtime",
+            "printedName": "startRealtime(type:dataType:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<TerraRTiOS.DataTypes>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC13startRealtime4type8dataType5tokenyAA11ConnectionsO_ShyAA9DataTypesOGSStF",
+            "mangledName": "$s10TerraRTiOS0A2RTC13startRealtime4type8dataType5tokenyAA11ConnectionsO_ShyAA9DataTypesOGSStF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRealtime",
+            "printedName": "startRealtime(type:dataType:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<TerraRTiOS.DataTypes>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Update) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Update",
+                    "printedName": "TerraRTiOS.Update",
+                    "usr": "s:10TerraRTiOS6UpdateV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC13startRealtime4type8dataType8callbackyAA11ConnectionsO_ShyAA9DataTypesOGyAA6UpdateVctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC13startRealtime4type8dataType8callbackyAA11ConnectionsO_ShyAA9DataTypesOGyAA6UpdateVctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC10disconnect4typeyAA11ConnectionsO_tF",
+            "mangledName": "$s10TerraRTiOS0A2RTC10disconnect4typeyAA11ConnectionsO_tF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10TerraRTiOS0A2RTC",
+        "mangledName": "$s10TerraRTiOS0A2RTC",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceList",
+        "printedName": "DeviceList",
+        "declKind": "Class",
+        "usr": "s:10TerraRTiOS10DeviceListC",
+        "mangledName": "$s10TerraRTiOS10DeviceListC",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Connections",
+        "printedName": "Connections",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "BLE",
+            "printedName": "BLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Connections.Type) -> TerraRTiOS.Connections",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connections",
+                    "printedName": "TerraRTiOS.Connections",
+                    "usr": "s:10TerraRTiOS11ConnectionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Connections.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connections",
+                        "printedName": "TerraRTiOS.Connections",
+                        "usr": "s:10TerraRTiOS11ConnectionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS11ConnectionsO3BLEyA2CmF",
+            "mangledName": "$s10TerraRTiOS11ConnectionsO3BLEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "APPLE",
+            "printedName": "APPLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Connections.Type) -> TerraRTiOS.Connections",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connections",
+                    "printedName": "TerraRTiOS.Connections",
+                    "usr": "s:10TerraRTiOS11ConnectionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Connections.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connections",
+                        "printedName": "TerraRTiOS.Connections",
+                        "usr": "s:10TerraRTiOS11ConnectionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS11ConnectionsO5APPLEyA2CmF",
+            "mangledName": "$s10TerraRTiOS11ConnectionsO5APPLEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "WATCH_OS",
+            "printedName": "WATCH_OS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Connections.Type) -> TerraRTiOS.Connections",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connections",
+                    "printedName": "TerraRTiOS.Connections",
+                    "usr": "s:10TerraRTiOS11ConnectionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Connections.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connections",
+                        "printedName": "TerraRTiOS.Connections",
+                        "usr": "s:10TerraRTiOS11ConnectionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS11ConnectionsO06WATCH_C0yA2CmF",
+            "mangledName": "$s10TerraRTiOS11ConnectionsO06WATCH_C0yA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.Connections?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connections",
+                    "printedName": "TerraRTiOS.Connections",
+                    "usr": "s:10TerraRTiOS11ConnectionsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS11ConnectionsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10TerraRTiOS11ConnectionsO8rawValueACSgSS_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS11ConnectionsO8rawValueSSvp",
+            "mangledName": "$s10TerraRTiOS11ConnectionsO8rawValueSSvp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11ConnectionsO8rawValueSSvg",
+                "mangledName": "$s10TerraRTiOS11ConnectionsO8rawValueSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS11ConnectionsO",
+        "mangledName": "$s10TerraRTiOS11ConnectionsO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Device",
+        "printedName": "Device",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceName:deviceUUID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Device",
+                "printedName": "TerraRTiOS.Device",
+                "usr": "s:10TerraRTiOS6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6DeviceV10deviceName0E4UUIDACSS_SStcfc",
+            "mangledName": "$s10TerraRTiOS6DeviceV10deviceName0E4UUIDACSS_SStcfc",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6DeviceV2idSSvp",
+            "mangledName": "$s10TerraRTiOS6DeviceV2idSSvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6DeviceV2idSSvg",
+                "mangledName": "$s10TerraRTiOS6DeviceV2idSSvg",
+                "moduleName": "TerraRTiOS",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS6DeviceV",
+        "mangledName": "$s10TerraRTiOS6DeviceV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataPayload",
+        "printedName": "DataPayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ts",
+            "printedName": "ts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS11DataPayloadV2tsSSvp",
+            "mangledName": "$s10TerraRTiOS11DataPayloadV2tsSSvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV2tsSSvg",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV2tsSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV2tsSSvs",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV2tsSSvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV2tsSSvM",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV2tsSSvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "val",
+            "printedName": "val",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS11DataPayloadV3valSdSgvp",
+            "mangledName": "$s10TerraRTiOS11DataPayloadV3valSdSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV3valSdSgvg",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV3valSdSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV3valSdSgvs",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV3valSdSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV3valSdSgvM",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV3valSdSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "d",
+            "printedName": "d",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Double]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS11DataPayloadV1dSaySdGSgvp",
+            "mangledName": "$s10TerraRTiOS11DataPayloadV1dSaySdGSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV1dSaySdGSgvg",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV1dSaySdGSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV1dSaySdGSgvs",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV1dSaySdGSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS11DataPayloadV1dSaySdGSgvM",
+                "mangledName": "$s10TerraRTiOS11DataPayloadV1dSaySdGSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataPayload",
+                "printedName": "TerraRTiOS.DataPayload",
+                "usr": "s:10TerraRTiOS11DataPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS11DataPayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS11DataPayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS11DataPayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS11DataPayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS11DataPayloadV",
+        "mangledName": "$s10TerraRTiOS11DataPayloadV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Color",
+        "printedName": "Color",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "border",
+            "printedName": "border",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6borderACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6borderACvpZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6borderACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6borderACvgZ",
+                "moduleName": "TerraRTiOS",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV10TerraRTiOSE10backgroundACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE10backgroundACvpZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV10TerraRTiOSE10backgroundACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE10backgroundACvgZ",
+                "moduleName": "TerraRTiOS",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "button",
+            "printedName": "button",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6buttonACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6buttonACvpZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6buttonACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6buttonACvgZ",
+                "moduleName": "TerraRTiOS",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inverse",
+            "printedName": "inverse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV10TerraRTiOSE7inverseACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE7inverseACvpZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV10TerraRTiOSE7inverseACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE7inverseACvgZ",
+                "moduleName": "TerraRTiOS",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accent",
+            "printedName": "accent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6accentACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6accentACvpZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV10TerraRTiOSE6accentACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV10TerraRTiOSE6accentACvgZ",
+                "moduleName": "TerraRTiOS",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ColorV",
+        "mangledName": "$s7SwiftUI5ColorV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 12,
+      "value": "\"HEART_RATE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "\"ECG\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 7,
+      "value": "\"STEPS\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 5,
+      "value": "\"HRV\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 10,
+      "value": "\"CALORIES\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"LOCATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 7,
+      "value": "\"SPEED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 10,
+      "value": "\"DISTANCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "\"STEPS_CADENCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 16,
+      "value": "\"FLOORS_CLIMBED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 11,
+      "value": "\"GYROSCOPE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 14,
+      "value": "\"ACCELERATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 12,
+      "value": "\"HEART_RATE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "\"ECG\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 7,
+      "value": "\"STEPS\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 5,
+      "value": "\"HRV\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 10,
+      "value": "\"CALORIES\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"LOCATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 7,
+      "value": "\"SPEED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 10,
+      "value": "\"DISTANCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "\"STEPS_CADENCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 16,
+      "value": "\"FLOORS_CLIMBED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 11,
+      "value": "\"GYROSCOPE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 14,
+      "value": "\"ACCELERATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/GattAttributes.swift",
+      "kind": "Dictionary",
+      "offset": 219,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 468,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "kind": "BooleanLiteral",
+      "offset": 336,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "kind": "BooleanLiteral",
+      "offset": 981,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "kind": "StringLiteral",
+      "offset": 4351,
+      "length": 14,
+      "value": "\"TerraRTiOS.CentralManager\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "kind": "Array",
+      "offset": 232,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 7,
+      "value": "\"🚫 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 9,
+      "value": "\"⚠️ \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 7,
+      "value": "\"👀 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 7,
+      "value": "\"🔎 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 7,
+      "value": "\"🚫 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 9,
+      "value": "\"⚠️ \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 7,
+      "value": "\"👀 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 7,
+      "value": "\"🔎 \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1118,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1157,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 15,
+      "value": "\"TerraRTiOS.WebSocketClient\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 27,
+      "value": "\"co.tryterra.http.requests\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "kind": "Dictionary",
+      "offset": 695,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "Array",
+      "offset": 370,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "Array",
+      "offset": 419,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "Array",
+      "offset": 477,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "kind": "BooleanLiteral",
+      "offset": 191,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 6,
+      "value": "\"info\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 22,
+      "value": "\"Bluetooth Low Energy\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 13,
+      "value": "\"iOS Sensors\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 10,
+      "value": "\"Watch OS\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 22,
+      "value": "\"Bluetooth Low Energy\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 13,
+      "value": "\"iOS Sensors\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 10,
+      "value": "\"Watch OS\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 28,
+      "value": "\"https:\/\/api.tryterra.co\/v2\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 24,
+      "value": "\"https:\/\/ws.tryterra.co\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 30,
+      "value": "\"wss:\/\/ws.tryterra.co\/connect\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 52,
+      "value": "\"co.tryterra.terra.bluetooh.low.energy.device.cache\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 33,
+      "value": "\"co.tryterra.terra.logging.level\""
+    }
+  ]
+}
