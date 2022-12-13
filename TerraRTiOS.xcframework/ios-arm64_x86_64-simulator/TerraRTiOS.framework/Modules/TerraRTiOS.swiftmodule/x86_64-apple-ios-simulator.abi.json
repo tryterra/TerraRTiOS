@@ -3443,7 +3443,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC5devId09referenceF010completionACSS_SSSgySbctcfc",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -3472,7 +3473,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC9getUseridSSSgyF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3517,7 +3519,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC14initConnection5token10completionySS_ySbctF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3537,7 +3540,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC016connectWithWatchC0yyKF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -3599,7 +3603,98 @@
             "mangledName": "$s10TerraRTiOS0A2RTC18startBluetoothScan4type27bluetoothLowEnergyFromCache8callbackAA0A9BLEWidgetVSgAA11ConnectionsO_SbySbctF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBluetoothScan",
+            "printedName": "startBluetoothScan(type:deviceCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Device) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "TerraRTiOS.Device",
+                    "usr": "s:10TerraRTiOS6DeviceV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC18startBluetoothScan4type14deviceCallbackyAA11ConnectionsO_yAA6DeviceVctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC18startBluetoothScan4type14deviceCallbackyAA11ConnectionsO_yAA6DeviceVctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDevice",
+            "printedName": "connectDevice(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Device",
+                "printedName": "TerraRTiOS.Device",
+                "usr": "s:10TerraRTiOS6DeviceV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC13connectDeviceyyAA0F0V_ySbctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC13connectDeviceyyAA0F0V_ySbctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3625,7 +3720,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC12stopRealtime4typeyAA11ConnectionsO_tF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3671,7 +3767,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC13startRealtime4type8dataType5tokenyAA11ConnectionsO_ShyAA9DataTypesOGSStF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3729,7 +3826,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC13startRealtime4type8dataType8callbackyAA11ConnectionsO_ShyAA9DataTypesOGyAA6UpdateVctF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3755,7 +3853,8 @@
             "mangledName": "$s10TerraRTiOS0A2RTC10disconnect4typeyAA11ConnectionsO_tF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -3765,7 +3864,8 @@
         "mangledName": "$s10TerraRTiOS0A2RTC",
         "moduleName": "TerraRTiOS",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -4113,27 +4213,22 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Device",
         "printedName": "Device",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(deviceName:deviceUUID:)",
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
             "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Device",
-                "printedName": "TerraRTiOS.Device",
-                "usr": "s:10TerraRTiOS6DeviceV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
               {
                 "kind": "TypeNominal",
                 "name": "String",
@@ -4141,14 +4236,81 @@
                 "usr": "s:SS"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:10TerraRTiOS6DeviceV10deviceName0E4UUIDACSS_SStcfc",
-            "mangledName": "$s10TerraRTiOS6DeviceV10deviceName0E4UUIDACSS_SStcfc",
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6DeviceV10deviceNameSSvp",
+            "mangledName": "$s10TerraRTiOS6DeviceV10deviceNameSSvp",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
+              "HasStorage",
               "AccessControl"
             ],
-            "init_kind": "Designated"
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6DeviceV10deviceNameSSvg",
+                "mangledName": "$s10TerraRTiOS6DeviceV10deviceNameSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceUUID",
+            "printedName": "deviceUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6DeviceV10deviceUUIDSSvp",
+            "mangledName": "$s10TerraRTiOS6DeviceV10deviceUUIDSSvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6DeviceV10deviceUUIDSSvg",
+                "mangledName": "$s10TerraRTiOS6DeviceV10deviceUUIDSSvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -5210,14 +5372,14 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "BooleanLiteral",
-      "offset": 981,
+      "offset": 1358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "StringLiteral",
-      "offset": 4351,
+      "offset": 5415,
       "length": 14,
       "value": "\"TerraRTiOS.CentralManager\""
     },
@@ -5546,14 +5708,14 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 365,
+      "offset": 553,
       "length": 6,
       "value": "\"info\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "BooleanLiteral",
-      "offset": 2194,
+      "offset": 4709,
       "length": 5,
       "value": "false"
     },
