@@ -3728,6 +3728,71 @@
           {
             "kind": "Function",
             "name": "startRealtime",
+            "printedName": "startRealtime(type:dataType:token:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<TerraRTiOS.DataTypes>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Update) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Update",
+                    "printedName": "TerraRTiOS.Update",
+                    "usr": "s:10TerraRTiOS6UpdateV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC13startRealtime4type8dataType5token8callbackyAA11ConnectionsO_ShyAA9DataTypesOGSSyAA6UpdateVctF",
+            "mangledName": "$s10TerraRTiOS0A2RTC13startRealtime4type8dataType5token8callbackyAA11ConnectionsO_ShyAA9DataTypesOGSSyAA6UpdateVctF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRealtime",
             "printedName": "startRealtime(type:dataType:token:)",
             "children": [
               {

@@ -136,6 +136,7 @@ public class TerraRT {
   public func startBluetoothScan(type: TerraRTiOS.Connections, deviceCallback: @escaping (TerraRTiOS.Device) -> Swift.Void)
   public func connectDevice(_ device: TerraRTiOS.Device, _ connectionCallback: @escaping (Swift.Bool) -> Swift.Void)
   public func stopRealtime(type: TerraRTiOS.Connections)
+  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func disconnect(type: TerraRTiOS.Connections)
