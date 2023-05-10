@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
@@ -119,6 +119,17 @@ public struct IdentifyPayload : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public enum ConnectionState : Swift.Int, Swift.Codable {
+  case CONNECTING
+  case CONNECTED
+  case DISCONNECTED
+  case INACTIVE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct Update : Swift.Codable {
   public var ts: Swift.String?
   public var val: Swift.Double?
@@ -136,10 +147,11 @@ public class TerraRT {
   public func startBluetoothScan(type: TerraRTiOS.Connections, deviceCallback: @escaping (TerraRTiOS.Device) -> Swift.Void)
   public func connectDevice(_ device: TerraRTiOS.Device, _ connectionCallback: @escaping (Swift.Bool) -> Swift.Void)
   public func stopRealtime(type: TerraRTiOS.Connections)
-  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
-  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String)
+  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, callback: @escaping (TerraRTiOS.Update) -> Swift.Void, connectionCallback: @escaping (Swift.Bool) -> Swift.Void = {_ in })
+  public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, connectionCallback: @escaping (Swift.Bool) -> Swift.Void = {_ in})
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func disconnect(type: TerraRTiOS.Connections)
+  public func setWatchOSConnectionStateListener(listener: @escaping (TerraRTiOS.ConnectionState) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceList : Foundation.ObservableObject {
@@ -179,6 +191,9 @@ extension TerraRTiOS.DataTypes : Swift.RawRepresentable {}
 extension TerraRTiOS.Opcode : Swift.Equatable {}
 extension TerraRTiOS.Opcode : Swift.Hashable {}
 extension TerraRTiOS.Opcode : Swift.RawRepresentable {}
+extension TerraRTiOS.ConnectionState : Swift.Equatable {}
+extension TerraRTiOS.ConnectionState : Swift.Hashable {}
+extension TerraRTiOS.ConnectionState : Swift.RawRepresentable {}
 extension TerraRTiOS.Connections : Swift.Equatable {}
 extension TerraRTiOS.Connections : Swift.Hashable {}
 extension TerraRTiOS.Connections : Swift.RawRepresentable {}

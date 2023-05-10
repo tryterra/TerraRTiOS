@@ -3411,6 +3411,310 @@
       },
       {
         "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectionState",
+        "printedName": "ConnectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CONNECTING",
+            "printedName": "CONNECTING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ConnectionState.Type) -> TerraRTiOS.ConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "TerraRTiOS.ConnectionState",
+                        "usr": "s:10TerraRTiOS15ConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS15ConnectionStateO10CONNECTINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO10CONNECTINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "CONNECTED",
+            "printedName": "CONNECTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ConnectionState.Type) -> TerraRTiOS.ConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "TerraRTiOS.ConnectionState",
+                        "usr": "s:10TerraRTiOS15ConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS15ConnectionStateO9CONNECTEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO9CONNECTEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DISCONNECTED",
+            "printedName": "DISCONNECTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ConnectionState.Type) -> TerraRTiOS.ConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "TerraRTiOS.ConnectionState",
+                        "usr": "s:10TerraRTiOS15ConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS15ConnectionStateO12DISCONNECTEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO12DISCONNECTEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "INACTIVE",
+            "printedName": "INACTIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ConnectionState.Type) -> TerraRTiOS.ConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "TerraRTiOS.ConnectionState",
+                        "usr": "s:10TerraRTiOS15ConnectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS15ConnectionStateO8INACTIVEyA2CmF",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO8INACTIVEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.ConnectionState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS15ConnectionStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO8rawValueACSgSi_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS15ConnectionStateO8rawValueSivp",
+            "mangledName": "$s10TerraRTiOS15ConnectionStateO8rawValueSivp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS15ConnectionStateO8rawValueSivg",
+                "mangledName": "$s10TerraRTiOS15ConnectionStateO8rawValueSivg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS15ConnectionStateO",
+        "mangledName": "$s10TerraRTiOS15ConnectionStateO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4211,6 +4515,45 @@
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWatchOSConnectionStateListener",
+            "printedName": "setWatchOSConnectionStateListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ConnectionState) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "TerraRTiOS.ConnectionState",
+                    "usr": "s:10TerraRTiOS15ConnectionStateO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C33setWatchOSConnectionStateListener8listeneryyAA010ConnectionG0Oc_tF",
+            "mangledName": "$s10TerraRTiOS0A0C33setWatchOSConnectionStateListener8listeneryyAA010ConnectionG0Oc_tF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -5834,6 +6177,90 @@
       "offset": 634,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
