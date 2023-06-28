@@ -1475,6 +1475,80 @@
             "moduleName": "TerraRTiOS"
           },
           {
+            "kind": "Var",
+            "name": "CORE_TEMPERATURE",
+            "printedName": "CORE_TEMPERATURE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO16CORE_TEMPERATUREyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO16CORE_TEMPERATUREyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "SKIN_TEMPERATURE",
+            "printedName": "SKIN_TEMPERATURE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO16SKIN_TEMPERATUREyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO16SKIN_TEMPERATUREyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -4267,6 +4341,36 @@
           },
           {
             "kind": "Function",
+            "name": "getConnectedDevice",
+            "printedName": "getConnectedDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.Device?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "TerraRTiOS.Device",
+                    "usr": "s:10TerraRTiOS6DeviceV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC18getConnectedDeviceAA0G0VSgyF",
+            "mangledName": "$s10TerraRTiOS0A2RTC18getConnectedDeviceAA0G0VSgyF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setWatchOSConnectionStateListener",
             "printedName": "setWatchOSConnectionStateListener(listener:)",
             "children": [
@@ -5699,6 +5803,20 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
+      "offset": 561,
+      "length": 18,
+      "value": "\"CORE_TEMPERATURE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 18,
+      "value": "\"SKIN_TEMPERATURE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
       "offset": 179,
       "length": 12,
       "value": "\"HEART_RATE\""
@@ -5781,6 +5899,20 @@
       "value": "\"ACCELERATION\""
     },
     {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 18,
+      "value": "\"CORE_TEMPERATURE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 18,
+      "value": "\"SKIN_TEMPERATURE\""
+    },
+    {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/GattAttributes.swift",
       "kind": "Dictionary",
       "offset": 219,
@@ -5818,14 +5950,14 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "BooleanLiteral",
-      "offset": 1358,
+      "offset": 1315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "StringLiteral",
-      "offset": 5501,
+      "offset": 5776,
       "length": 14,
       "value": "\"TerraRTiOS.CentralManager\""
     },
@@ -6252,7 +6384,7 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "BooleanLiteral",
-      "offset": 4709,
+      "offset": 4751,
       "length": 5,
       "value": "false"
     },

@@ -53,6 +53,8 @@ public enum DataTypes : Swift.String, Swift.Codable {
   case FLOORS_CLIMBED
   case GYROSCOPE
   case ACCELERATION
+  case CORE_TEMPERATURE
+  case SKIN_TEMPERATURE
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -151,6 +153,7 @@ public class TerraRT {
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, connectionCallback: @escaping (Swift.Bool) -> Swift.Void = {_ in})
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, callback: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func disconnect(type: TerraRTiOS.Connections)
+  public func getConnectedDevice() -> TerraRTiOS.Device?
   public func setWatchOSConnectionStateListener(listener: @escaping (TerraRTiOS.ConnectionState) -> Swift.Void)
   @objc deinit
 }
