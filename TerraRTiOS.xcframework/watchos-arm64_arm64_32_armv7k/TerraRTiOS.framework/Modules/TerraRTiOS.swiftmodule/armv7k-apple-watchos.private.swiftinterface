@@ -114,13 +114,17 @@ public enum ConnectionState : Swift.Int, Swift.Codable {
   }
 }
 public enum ReadTypes : Swift.String {
-  case WORKOUT
   case STEPS
-  case DISTANCE
   case LOCATION
   case CALORIES
   case HEART_RATE
   case HEART_RATE_VARIABILITY
+  case SPEED
+  case DISTANCE
+  case STEPS_CADENCE
+  case FLOORS_CLIMBED
+  case GYROSCOPE
+  case ACCELERATION
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

@@ -3737,43 +3737,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "WORKOUT",
-            "printedName": "WORKOUT",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReadTypes",
-                    "printedName": "TerraRTiOS.ReadTypes",
-                    "usr": "s:10TerraRTiOS9ReadTypesO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "TerraRTiOS.ReadTypes.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReadTypes",
-                        "printedName": "TerraRTiOS.ReadTypes",
-                        "usr": "s:10TerraRTiOS9ReadTypesO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10TerraRTiOS9ReadTypesO7WORKOUTyA2CmF",
-            "mangledName": "$s10TerraRTiOS9ReadTypesO7WORKOUTyA2CmF",
-            "moduleName": "TerraRTiOS"
-          },
-          {
-            "kind": "Var",
             "name": "STEPS",
             "printedName": "STEPS",
             "children": [
@@ -3807,43 +3770,6 @@
             "declKind": "EnumElement",
             "usr": "s:10TerraRTiOS9ReadTypesO5STEPSyA2CmF",
             "mangledName": "$s10TerraRTiOS9ReadTypesO5STEPSyA2CmF",
-            "moduleName": "TerraRTiOS"
-          },
-          {
-            "kind": "Var",
-            "name": "DISTANCE",
-            "printedName": "DISTANCE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ReadTypes",
-                    "printedName": "TerraRTiOS.ReadTypes",
-                    "usr": "s:10TerraRTiOS9ReadTypesO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "TerraRTiOS.ReadTypes.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReadTypes",
-                        "printedName": "TerraRTiOS.ReadTypes",
-                        "usr": "s:10TerraRTiOS9ReadTypesO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10TerraRTiOS9ReadTypesO8DISTANCEyA2CmF",
-            "mangledName": "$s10TerraRTiOS9ReadTypesO8DISTANCEyA2CmF",
             "moduleName": "TerraRTiOS"
           },
           {
@@ -3992,6 +3918,228 @@
             "declKind": "EnumElement",
             "usr": "s:10TerraRTiOS9ReadTypesO22HEART_RATE_VARIABILITYyA2CmF",
             "mangledName": "$s10TerraRTiOS9ReadTypesO22HEART_RATE_VARIABILITYyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "SPEED",
+            "printedName": "SPEED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO5SPEEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO5SPEEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "DISTANCE",
+            "printedName": "DISTANCE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO8DISTANCEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO8DISTANCEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "STEPS_CADENCE",
+            "printedName": "STEPS_CADENCE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO13STEPS_CADENCEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO13STEPS_CADENCEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "FLOORS_CLIMBED",
+            "printedName": "FLOORS_CLIMBED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO14FLOORS_CLIMBEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO14FLOORS_CLIMBEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "GYROSCOPE",
+            "printedName": "GYROSCOPE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO9GYROSCOPEyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO9GYROSCOPEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "ACCELERATION",
+            "printedName": "ACCELERATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.ReadTypes.Type) -> TerraRTiOS.ReadTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadTypes",
+                    "printedName": "TerraRTiOS.ReadTypes",
+                    "usr": "s:10TerraRTiOS9ReadTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.ReadTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReadTypes",
+                        "printedName": "TerraRTiOS.ReadTypes",
+                        "usr": "s:10TerraRTiOS9ReadTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9ReadTypesO12ACCELERATIONyA2CmF",
+            "mangledName": "$s10TerraRTiOS9ReadTypesO12ACCELERATIONyA2CmF",
             "moduleName": "TerraRTiOS"
           },
           {
@@ -4147,6 +4295,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
       },
       {
         "kind": "Import",
@@ -6265,100 +6430,156 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 190,
-      "length": 9,
-      "value": "\"WORKOUT\""
-    },
-    {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 188,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 245,
-      "length": 10,
-      "value": "\"DISTANCE\""
-    },
-    {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 216,
       "length": 10,
       "value": "\"LOCATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 247,
       "length": 10,
       "value": "\"CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 280,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 327,
       "length": 24,
       "value": "\"HEART_RATE_VARIABILITY\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 190,
-      "length": 9,
-      "value": "\"WORKOUT\""
+      "offset": 369,
+      "length": 7,
+      "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 397,
+      "length": 10,
+      "value": "\"DISTANCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 15,
+      "value": "\"STEPS_CADENCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 16,
+      "value": "\"FLOORS_CLIMBED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 11,
+      "value": "\"GYROSCOPE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 14,
+      "value": "\"ACCELERATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 245,
-      "length": 10,
-      "value": "\"DISTANCE\""
-    },
-    {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 216,
       "length": 10,
       "value": "\"LOCATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 247,
       "length": 10,
       "value": "\"CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 280,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 327,
       "length": 24,
       "value": "\"HEART_RATE_VARIABILITY\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 7,
+      "value": "\"SPEED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 10,
+      "value": "\"DISTANCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 15,
+      "value": "\"STEPS_CADENCE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 16,
+      "value": "\"FLOORS_CLIMBED\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 11,
+      "value": "\"GYROSCOPE\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 14,
+      "value": "\"ACCELERATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
@@ -6366,6 +6587,20 @@
       "offset": 284,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
