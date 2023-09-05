@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import Combine/*.Combine*/
 import CoreBluetooth
 import CoreMotion
 import Foundation
@@ -15,18 +16,18 @@ import WatchConnectivity
 import _Concurrency
 import _StringProcessing
 public struct HeartBeatIntervalPayload : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct HeartBeatInterval : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TerraAuthResponse : Swift.Codable {
   public var status: Swift.String
   public var user_id: Swift.String?
   public var reference_id: Swift.String?
   public var message: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum TerraError : Swift.Error {
   case UnknownOpcode
@@ -62,7 +63,7 @@ public enum DataTypes : Swift.String, Swift.Codable {
   }
 }
 public struct GatewaySendPayload : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class GattAttributes {
   public func lookup(_ name: Swift.String) -> CoreBluetooth.CBUUID?
@@ -113,13 +114,23 @@ public enum Opcode : Swift.Int {
     get
   }
 }
+public enum WorkoutEvent : Swift.String {
+  case PAUSE
+  case STOP
+  case RESUME
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct Identify : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct IdentifyPayload : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConnectionState : Swift.Int, Swift.Codable {
   case CONNECTING
@@ -137,8 +148,8 @@ public struct Update : Swift.Codable {
   public var val: Swift.Double?
   public var type: Swift.String?
   public var d: [Swift.Double]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class TerraRT {
   public init(devId: Swift.String, referenceId: Swift.String?, completion: @escaping (Swift.Bool) -> Swift.Void)
@@ -155,6 +166,9 @@ public class TerraRT {
   public func disconnect(type: TerraRTiOS.Connections)
   public func getConnectedDevice() -> TerraRTiOS.Device?
   public func setWatchOSConnectionStateListener(listener: @escaping (TerraRTiOS.ConnectionState) -> Swift.Void)
+  public func pauseWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func resumeWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func stopWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceList : Foundation.ObservableObject {
@@ -183,8 +197,8 @@ public struct DataPayload : Swift.Codable {
   public var ts: Swift.String
   public var val: Swift.Double?
   public var d: [Swift.Double]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension TerraRTiOS.TerraError : Swift.Equatable {}
 extension TerraRTiOS.TerraError : Swift.Hashable {}
@@ -194,6 +208,9 @@ extension TerraRTiOS.DataTypes : Swift.RawRepresentable {}
 extension TerraRTiOS.Opcode : Swift.Equatable {}
 extension TerraRTiOS.Opcode : Swift.Hashable {}
 extension TerraRTiOS.Opcode : Swift.RawRepresentable {}
+extension TerraRTiOS.WorkoutEvent : Swift.Equatable {}
+extension TerraRTiOS.WorkoutEvent : Swift.Hashable {}
+extension TerraRTiOS.WorkoutEvent : Swift.RawRepresentable {}
 extension TerraRTiOS.ConnectionState : Swift.Equatable {}
 extension TerraRTiOS.ConnectionState : Swift.Hashable {}
 extension TerraRTiOS.ConnectionState : Swift.RawRepresentable {}
