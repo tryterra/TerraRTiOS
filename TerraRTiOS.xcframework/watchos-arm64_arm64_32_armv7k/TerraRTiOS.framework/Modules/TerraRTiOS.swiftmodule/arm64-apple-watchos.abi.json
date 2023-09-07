@@ -7176,49 +7176,49 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 1923,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1988,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1926,
+      "offset": 2089,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
+      "offset": 2135,
       "length": 8,
       "value": "\"resume\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2075,
+      "offset": 2238,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2121,
+      "offset": 2284,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2341,
+      "offset": 2504,
       "length": 5,
       "value": "false"
     }

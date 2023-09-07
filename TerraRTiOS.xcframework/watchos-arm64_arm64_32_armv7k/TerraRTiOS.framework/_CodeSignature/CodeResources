@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		evpClJcrPLodobrkBir7biMF2mo=
+		+O+kx4/q7n6YBYhpXukGGoF5zSg=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		evpClJcrPLodobrkBir7biMF2mo=
+		+O+kx4/q7n6YBYhpXukGGoF5zSg=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/armv7k-apple-watchos.abi.json</key>
 		<data>
-		evpClJcrPLodobrkBir7biMF2mo=
+		+O+kx4/q7n6YBYhpXukGGoF5zSg=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			evpClJcrPLodobrkBir7biMF2mo=
+			+O+kx4/q7n6YBYhpXukGGoF5zSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ8h5MLX3qGvzjqG0sqo7bFuCdCMppLmfSINiC5fPDE=
+			yskyELXWdThar78ndu3bzJAhcwzquj5r6tZxSCeThus=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
@@ -183,11 +183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			evpClJcrPLodobrkBir7biMF2mo=
+			+O+kx4/q7n6YBYhpXukGGoF5zSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ8h5MLX3qGvzjqG0sqo7bFuCdCMppLmfSINiC5fPDE=
+			yskyELXWdThar78ndu3bzJAhcwzquj5r6tZxSCeThus=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			evpClJcrPLodobrkBir7biMF2mo=
+			+O+kx4/q7n6YBYhpXukGGoF5zSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ8h5MLX3qGvzjqG0sqo7bFuCdCMppLmfSINiC5fPDE=
+			yskyELXWdThar78ndu3bzJAhcwzquj5r6tZxSCeThus=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
