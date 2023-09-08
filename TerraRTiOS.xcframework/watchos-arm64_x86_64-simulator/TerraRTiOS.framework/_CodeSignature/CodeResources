@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		xgAjUmkckdMegOqPYY3pi4EoH50=
+		xky2ctDri5kFj9SjM0oOVzmEw6c=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		xgAjUmkckdMegOqPYY3pi4EoH50=
+		xky2ctDri5kFj9SjM0oOVzmEw6c=
 		</data>
 		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhrgQ5Wx6n0SGbimnUnaw+lhsx63tp7GsO2muwD3boQ=
+			EqJsfC/VUFaiDMP/WhxEYtreE6rU6ve+XWtJr9i977c=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IhrgQ5Wx6n0SGbimnUnaw+lhsx63tp7GsO2muwD3boQ=
+			EqJsfC/VUFaiDMP/WhxEYtreE6rU6ve+XWtJr9i977c=
 			</data>
 		</dict>
 		<key>Modules/TerraRTiOS.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
