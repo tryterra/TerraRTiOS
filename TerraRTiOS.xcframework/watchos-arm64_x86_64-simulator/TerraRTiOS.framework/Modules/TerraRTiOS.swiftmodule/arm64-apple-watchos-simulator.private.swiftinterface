@@ -131,9 +131,18 @@ public enum ReadTypes : Swift.String {
     get
   }
 }
+public struct Update : Swift.Codable {
+  public var ts: Swift.String?
+  public var val: Swift.Double?
+  public var type: Swift.String?
+  public var d: [Swift.Double]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public class Terra {
   public init() throws
   public func connect()
+  public func setUpdateHandler(_ updateHandler: @escaping (TerraRTiOS.Update) -> Swift.Void)
   public func startExercise(forType workoutType: TerraRTiOS.WorkoutTypes, completion: @escaping (Swift.Bool) -> Swift.Void)
   public func pauseExercise()
   public func resumeExercise()
@@ -141,6 +150,8 @@ public class Terra {
   public func startStream(forDataTypes dTypes: Swift.Set<TerraRTiOS.ReadTypes>, completion: @escaping (Swift.Bool) -> Swift.Void)
   public func stopStream()
   public func setWatchOSConnectionStateListener(listener: @escaping (TerraRTiOS.ConnectionState) -> Swift.Void)
+  public func sendMessage(_ data: [Swift.String : Any])
+  public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
 extension TerraRTiOS.WorkoutTypes : Swift.Equatable {}

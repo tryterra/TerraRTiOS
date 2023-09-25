@@ -4351,6 +4351,552 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Update",
+        "printedName": "Update",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ts",
+            "printedName": "ts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV2tsSSSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV2tsSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "val",
+            "printedName": "val",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV3valSdSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV3valSdSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV3valSdSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV4typeSSSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV4typeSSSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "d",
+            "printedName": "d",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Double]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvp",
+            "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvp",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvg",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvs",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvs",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS6UpdateV1dSaySdGSgvM",
+                "mangledName": "$s10TerraRTiOS6UpdateV1dSaySdGSgvM",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Update",
+                "printedName": "TerraRTiOS.Update",
+                "usr": "s:10TerraRTiOS6UpdateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6UpdateV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS6UpdateV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS6UpdateV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS6UpdateV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS6UpdateV",
+        "mangledName": "$s10TerraRTiOS6UpdateV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4493,6 +5039,45 @@
             "declKind": "Func",
             "usr": "s:10TerraRTiOS0A0C7connectyyF",
             "mangledName": "$s10TerraRTiOS0A0C7connectyyF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpdateHandler",
+            "printedName": "setUpdateHandler(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Update) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Update",
+                    "printedName": "TerraRTiOS.Update",
+                    "usr": "s:10TerraRTiOS6UpdateV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C16setUpdateHandleryyyAA0E0VcF",
+            "mangledName": "$s10TerraRTiOS0A0C16setUpdateHandleryyyAA0E0VcF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl",
@@ -4736,6 +5321,96 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C11sendMessageyySDySSypGF",
+            "mangledName": "$s10TerraRTiOS0A0C11sendMessageyySDySSypGF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMessageHandler",
+            "printedName": "setMessageHandler(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C17setMessageHandleryyySDySSypGcF",
+            "mangledName": "$s10TerraRTiOS0A0C17setMessageHandleryyySDySSypGcF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -5965,287 +6640,357 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1076,
       "length": 60,
       "value": "\"Workout already started, stop it first, then start another\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1101,
+      "offset": 1161,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1279,
+      "offset": 1339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1433,
+      "offset": 1493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2214,
+      "offset": 2274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2403,
       "length": 17,
       "value": "\"Started workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2472,
+      "offset": 2532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2865,
+      "offset": 2925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 3012,
+      "offset": 3072,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "FloatLiteral",
-      "offset": 3600,
+      "offset": 3660,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4293,
+      "offset": 4353,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4323,
+      "offset": 4383,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4380,
+      "offset": 4440,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4579,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4609,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4598,
+      "offset": 4666,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 4772,
+      "length": 88,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 4802,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 4859,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4684,
+      "offset": 4979,
+      "length": 88,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 5009,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 5066,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 5146,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4775,
+      "offset": 5237,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4779,
+      "offset": 5241,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4785,
+      "offset": 5247,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4927,
+      "offset": 5389,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4957,
+      "offset": 5419,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5137,
+      "offset": 5629,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 5659,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5774,
+      "length": 40,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 5804,
+      "length": 9,
+      "value": "\"_DURATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 5976,
+      "length": 40,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 6006,
+      "length": 9,
+      "value": "\"_DURATION\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 6082,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
+      "offset": 6603,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 6633,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6022,
+      "offset": 6834,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6052,
+      "offset": 6864,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6168,
+      "offset": 6980,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6392,
+      "offset": 7204,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6784,
+      "offset": 7596,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7002,
+      "offset": 7814,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7099,
+      "offset": 7911,
       "length": 16,
       "value": "\"TOTAL_CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7199,
+      "offset": 8011,
       "length": 22,
       "value": "\"BASAL_METABOLIC_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7472,
+      "offset": 8284,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7563,
+      "offset": 8375,
       "length": 17,
       "value": "\"FLIGHTS_CLIMBED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7656,
+      "offset": 8468,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7811,
+      "offset": 8623,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7962,
+      "offset": 8774,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8009,
+      "offset": 8821,
       "length": 2,
       "value": "\"\""
     },
@@ -6952,126 +7697,126 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "Dictionary",
-      "offset": 284,
+      "offset": 344,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 673,
+      "offset": 733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 761,
       "length": 21,
       "value": "\"Type not observable\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 826,
+      "offset": 886,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1026,
+      "offset": 1086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1597,
+      "offset": 1657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1676,
+      "offset": 1736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "StringLiteral",
-      "offset": 1993,
+      "offset": 2053,
       "length": 25,
       "value": "\"No new samples received\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 341,
+      "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 389,
+      "offset": 449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "FloatLiteral",
-      "offset": 625,
+      "offset": 685,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "FloatLiteral",
-      "offset": 677,
+      "offset": 737,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "FloatLiteral",
-      "offset": 783,
+      "offset": 843,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "StringLiteral",
-      "offset": 1158,
+      "offset": 1218,
       "length": 37,
       "value": "\"Error sending data to iOS Companion\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 1455,
+      "offset": 1515,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 3428,
+      "offset": 4267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 4425,
+      "offset": 5671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
-      "offset": 4588,
+      "offset": 5834,
       "length": 5,
       "value": "false"
     },
@@ -7085,63 +7830,70 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 1566,
+      "offset": 1810,
       "length": 18,
       "value": "\"Starting Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 1718,
+      "offset": 1962,
       "length": 16,
       "value": "\"Paused Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 2115,
       "length": 16,
       "value": "\"Resume Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 2194,
+      "offset": 2438,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 2613,
+      "offset": 2857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 3287,
       "length": 45,
       "value": "\"Failed to start streaming \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3331,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 3493,
+      "offset": 3737,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4338,
       "length": 4,
       "value": "true"
     },
@@ -7181,51 +7933,65 @@
       "value": "\"co.tryterra.terra.logging.level\""
     },
     {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 38,
+      "value": "\"45c67cba-cc7f-437e-a871-068cd002c9df\""
+    },
+    {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1923,
+      "offset": 2126,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 2191,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2089,
+      "offset": 2292,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
+      "offset": 2338,
       "length": 8,
       "value": "\"resume\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2238,
+      "offset": 2441,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2487,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2504,
+      "offset": 2707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2886,
       "length": 5,
       "value": "false"
     }

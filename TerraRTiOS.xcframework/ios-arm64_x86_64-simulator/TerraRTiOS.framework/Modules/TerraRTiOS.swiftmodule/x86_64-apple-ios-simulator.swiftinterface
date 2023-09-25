@@ -169,6 +169,8 @@ public class TerraRT {
   public func pauseWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func resumeWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func stopWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func sendMessage(_ data: [Swift.String : Any])
+  public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceList : Foundation.ObservableObject {
