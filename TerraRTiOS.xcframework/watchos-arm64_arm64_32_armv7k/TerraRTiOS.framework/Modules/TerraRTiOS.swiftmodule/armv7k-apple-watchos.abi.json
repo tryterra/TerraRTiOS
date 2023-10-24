@@ -4956,6 +4956,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5475,6 +5482,34 @@
         "kind": "Import",
         "name": "WatchConnectivity",
         "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
         "moduleName": "TerraRTiOS"
       }
@@ -7994,6 +8029,48 @@
       "offset": 2886,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 13,
+      "value": "\"AccentColor\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 12,
+      "value": "\"Background\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 8,
+      "value": "\"Border\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 8,
+      "value": "\"Button\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 6,
+      "value": "\"Scan\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 13,
+      "value": "\"TextInverse\""
     }
   ]
 }

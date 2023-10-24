@@ -4901,6 +4901,104 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWatchStateChangeListeners",
+            "printedName": "setWatchStateChangeListeners(isPairedListener:isAppInstalledListener:isComplicationEnabledListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC28setWatchStateChangeListeners16isPairedListener0j12AppInstalledL00j19ComplicationEnabledL0yySbcSg_A2HtF",
+            "mangledName": "$s10TerraRTiOS0A2RTC28setWatchStateChangeListeners16isPairedListener0j12AppInstalledL00j19ComplicationEnabledL0yySbcSg_A2HtF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4926,6 +5024,13 @@
         "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "TerraRTiOS"
       },
@@ -5877,6 +5982,34 @@
         "moduleName": "TerraRTiOS"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Color",
         "printedName": "Color",
@@ -6135,39 +6268,17 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ShapeStyle",
-            "printedName": "ShapeStyle",
-            "usr": "s:7SwiftUI10ShapeStyleP",
-            "mangledName": "$s7SwiftUI10ShapeStyleP"
           },
           {
             "kind": "Conformance",
@@ -6203,6 +6314,50 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Resolved",
+                "printedName": "Resolved",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Resolved",
+                    "printedName": "SwiftUI.Color.Resolved",
+                    "usr": "s:7SwiftUI5ColorV8ResolvedV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
       }
@@ -7682,155 +7837,197 @@
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1904,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 2000,
       "length": 18,
       "value": "\"Developer closed\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2015,
+      "offset": 2045,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2209,
+      "offset": 2248,
       "length": 38,
       "value": "\"Error in receiving message: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2246,
+      "offset": 2285,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2386,
+      "offset": 2425,
       "length": 19,
       "value": "\"Received: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2404,
+      "offset": 2443,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2514,
+      "offset": 2553,
       "length": 18,
       "value": "\"Incorrect Format\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3232,
       "length": 11,
       "value": "\"Data Sent\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 3718,
+      "offset": 3757,
       "length": 4,
       "value": "\"op\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4099,
+      "offset": 4138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 4491,
+      "offset": 4530,
       "length": 29,
       "value": "\"co.tryterra.terra.heartbeat\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4614,
+      "offset": 4653,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4833,
+      "offset": 4872,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4956,
+      "offset": 4995,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5062,
+      "offset": 5101,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 5133,
+      "offset": 5172,
       "length": 43,
       "value": "\"Server closed, Heartbeat not acknowledged\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5210,
+      "offset": 5249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5291,
+      "offset": 5330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5797,
+      "offset": 5836,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6086,
+      "offset": 6072,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6113,
+      "offset": 6165,
       "length": 60,
       "value": "\"Websocket connection closed: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6172,
+      "offset": 6224,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6390,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6417,
+      "length": 81,
+      "value": "\"Websocket connection invalidated: \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6497,
       "length": 2,
       "value": "\"\""
     },
@@ -8404,63 +8601,63 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1890,
+      "offset": 2070,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1998,
+      "offset": 2178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 2902,
       "length": 47,
       "value": "\"Activation State: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2398,
+      "offset": 2948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 3259,
       "length": 66,
       "value": "\"Reachability Change Activation State: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 3324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3584,
       "length": 31,
       "value": "\"Reachability Change: Inactive\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3809,
       "length": 34,
       "value": "\"Reachability Change: Deactivated\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3551,
+      "offset": 4101,
       "length": 5,
       "value": "false"
     },
@@ -8558,140 +8755,140 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 13909,
+      "offset": 14295,
       "length": 71,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 13921,
+      "offset": 14307,
       "length": 1,
       "value": "\"\/auth\/initSDK?resource_user_identifier=\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 13979,
+      "offset": 14365,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 14061,
+      "offset": 14447,
       "length": 8,
       "value": "\"dev-id\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 14275,
+      "offset": 14661,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 14400,
+      "offset": 14786,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 14493,
+      "offset": 14879,
       "length": 10,
       "value": "\"REALTIME\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15042,
+      "offset": 15428,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15093,
+      "offset": 15479,
       "length": 47,
       "value": "\"Cannot get Unique Device ID from user's phone\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15339,
+      "offset": 15725,
       "length": 8,
       "value": "\"dev-id\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15356,
+      "offset": 15742,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15444,
+      "offset": 15830,
       "length": 97,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15456,
+      "offset": 15842,
       "length": 1,
       "value": "\"\/auth\/authenticateSDKUser?resource=realtime&resource_user_identifier=\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15537,
+      "offset": 15923,
       "length": 3,
       "value": "\"art\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15552,
+      "offset": 15938,
       "length": 126,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15564,
+      "offset": 15950,
       "length": 1,
       "value": "\"\/auth\/authenticateSDKUser?resource=realtime&resource_user_identifier=\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15645,
+      "offset": 16031,
       "length": 3,
       "value": "\"art&reference_id=\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
-      "offset": 15677,
+      "offset": 16063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/DeviceList.swift",
       "kind": "Array",
-      "offset": 318,
+      "offset": 333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/DeviceList.swift",
       "kind": "Array",
-      "offset": 349,
+      "offset": 364,
       "length": 2,
       "value": "[]"
     },
@@ -8911,6 +9108,48 @@
       "offset": 404,
       "length": 38,
       "value": "\"45c67cba-cc7f-437e-a871-068cd002c9df\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 13,
+      "value": "\"AccentColor\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 12,
+      "value": "\"Background\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 8,
+      "value": "\"Border\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 8,
+      "value": "\"Button\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 6,
+      "value": "\"Scan\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 13,
+      "value": "\"TextInverse\""
     }
   ]
 }

@@ -1,11 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
-import Combine/*.Combine*/
 import CoreBluetooth
 import CoreMotion
+import DeveloperToolsSupport
 import Foundation
 import HealthKit
 import Swift
@@ -15,6 +15,7 @@ import UIKit
 import WatchConnectivity
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public struct HeartBeatIntervalPayload : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -171,6 +172,7 @@ public class TerraRT {
   public func stopWatchOSWorkout(completion: @escaping (Swift.Bool) -> Swift.Void)
   public func sendMessage(_ data: [Swift.String : Any])
   public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func setWatchStateChangeListeners(isPairedListener: ((Swift.Bool) -> Swift.Void)?, isAppInstalledListener: ((Swift.Bool) -> Swift.Void)?, isComplicationEnabledListener: ((Swift.Bool) -> Swift.Void)?)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceList : Foundation.ObservableObject {
