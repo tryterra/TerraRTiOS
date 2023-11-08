@@ -133,6 +133,22 @@ public enum ReadTypes : Swift.String {
     get
   }
 }
+public enum TerraWatchOSErrors : Swift.Error {
+  case WatchOSConnectioNotSupported
+  case HealthKitNotSupported
+  case CannotConnectToCompanionApp
+  case NotInitialised
+  case WorkoutAlreadyStarted
+  case HealthKitAuthorizationFailed
+  case StartWorkoutError
+  case StopWorkoutError
+  case InvalidWorkoutSessionCreation
+  public static func == (a: TerraRTiOS.TerraWatchOSErrors, b: TerraRTiOS.TerraWatchOSErrors) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct Update : Swift.Codable {
   public var ts: Swift.String?
   public var val: Swift.Double?
@@ -145,15 +161,16 @@ public class Terra {
   public init() throws
   public func connect()
   public func setUpdateHandler(_ updateHandler: @escaping (TerraRTiOS.Update) -> Swift.Void)
-  public func startExercise(forType workoutType: TerraRTiOS.WorkoutTypes, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func startExercise(forType workoutType: TerraRTiOS.WorkoutTypes, completion: @escaping (Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> Swift.Void)
   public func pauseExercise()
   public func resumeExercise()
-  public func stopExercise(completion: @escaping (Swift.Bool) -> Swift.Void)
-  public func startStream(forDataTypes dTypes: Swift.Set<TerraRTiOS.ReadTypes>, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func stopExercise(completion: @escaping (Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> Swift.Void)
+  public func startStream(forDataTypes dTypes: Swift.Set<TerraRTiOS.ReadTypes>, completion: @escaping (Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> Swift.Void)
   public func stopStream()
   public func setWatchOSConnectionStateListener(listener: @escaping (TerraRTiOS.ConnectionState) -> Swift.Void)
   public func sendMessage(_ data: [Swift.String : Any])
   public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func sharingDataAuthorised() -> Swift.Bool
   @objc deinit
 }
 extension TerraRTiOS.WorkoutTypes : Swift.Equatable {}
@@ -165,3 +182,5 @@ extension TerraRTiOS.ConnectionState : Swift.RawRepresentable {}
 extension TerraRTiOS.ReadTypes : Swift.Equatable {}
 extension TerraRTiOS.ReadTypes : Swift.Hashable {}
 extension TerraRTiOS.ReadTypes : Swift.RawRepresentable {}
+extension TerraRTiOS.TerraWatchOSErrors : Swift.Equatable {}
+extension TerraRTiOS.TerraWatchOSErrors : Swift.Hashable {}

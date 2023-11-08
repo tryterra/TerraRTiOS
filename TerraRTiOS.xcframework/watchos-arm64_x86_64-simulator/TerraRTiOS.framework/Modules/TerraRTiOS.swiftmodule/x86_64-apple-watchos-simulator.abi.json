@@ -4307,6 +4307,479 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TerraWatchOSErrors",
+        "printedName": "TerraWatchOSErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "WatchOSConnectioNotSupported",
+            "printedName": "WatchOSConnectioNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO0D23OSConnectioNotSupportedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO0D23OSConnectioNotSupportedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HealthKitNotSupported",
+            "printedName": "HealthKitNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO21HealthKitNotSupportedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO21HealthKitNotSupportedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "CannotConnectToCompanionApp",
+            "printedName": "CannotConnectToCompanionApp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO27CannotConnectToCompanionAppyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO27CannotConnectToCompanionAppyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "NotInitialised",
+            "printedName": "NotInitialised",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO14NotInitialisedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO14NotInitialisedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "WorkoutAlreadyStarted",
+            "printedName": "WorkoutAlreadyStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO21WorkoutAlreadyStartedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO21WorkoutAlreadyStartedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "HealthKitAuthorizationFailed",
+            "printedName": "HealthKitAuthorizationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO28HealthKitAuthorizationFailedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO28HealthKitAuthorizationFailedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "StartWorkoutError",
+            "printedName": "StartWorkoutError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO17StartWorkoutErroryA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO17StartWorkoutErroryA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "StopWorkoutError",
+            "printedName": "StopWorkoutError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO16StopWorkoutErroryA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO16StopWorkoutErroryA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "InvalidWorkoutSessionCreation",
+            "printedName": "InvalidWorkoutSessionCreation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO29InvalidWorkoutSessionCreationyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO29InvalidWorkoutSessionCreationyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TerraWatchOSErrors",
+                "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TerraWatchOSErrors",
+                "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO2eeoiySbAC_ACtFZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO9hashValueSivp",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO9hashValueSivp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS0A13WatchOSErrorsO9hashValueSivg",
+                "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO9hashValueSivg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO4hash4intoys6HasherVz_tF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO",
+        "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5111,7 +5584,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
+                "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5120,16 +5593,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TerraWatchOSErrors",
+                            "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerraRTiOS0A0C13startExercise7forType10completionyAA12WorkoutTypesO_ySbctF",
-            "mangledName": "$s10TerraRTiOS0A0C13startExercise7forType10completionyAA12WorkoutTypesO_ySbctF",
+            "usr": "s:10TerraRTiOS0A0C13startExercise7forType10completionyAA12WorkoutTypesO_ySb_AA0A13WatchOSErrorsOSgtctF",
+            "mangledName": "$s10TerraRTiOS0A0C13startExercise7forType10completionyAA12WorkoutTypesO_ySb_AA0A13WatchOSErrorsOSgtctF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl",
@@ -5192,7 +5686,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
+                "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5201,16 +5695,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TerraWatchOSErrors",
+                            "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerraRTiOS0A0C12stopExercise10completionyySbc_tF",
-            "mangledName": "$s10TerraRTiOS0A0C12stopExercise10completionyySbc_tF",
+            "usr": "s:10TerraRTiOS0A0C12stopExercise10completionyySb_AA0A13WatchOSErrorsOSgtc_tF",
+            "mangledName": "$s10TerraRTiOS0A0C12stopExercise10completionyySb_AA0A13WatchOSErrorsOSgtc_tF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl",
@@ -5245,7 +5760,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
+                "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5254,16 +5769,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, TerraRTiOS.TerraWatchOSErrors?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TerraWatchOSErrors",
+                            "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10TerraRTiOS0A0C11startStream12forDataTypes10completionyShyAA04ReadH0OG_ySbctF",
-            "mangledName": "$s10TerraRTiOS0A0C11startStream12forDataTypes10completionyShyAA04ReadH0OG_ySbctF",
+            "usr": "s:10TerraRTiOS0A0C11startStream12forDataTypes10completionyShyAA04ReadH0OG_ySb_AA0A13WatchOSErrorsOSgtctF",
+            "mangledName": "$s10TerraRTiOS0A0C11startStream12forDataTypes10completionyShyAA04ReadH0OG_ySb_AA0A13WatchOSErrorsOSgtctF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl",
@@ -5415,6 +5951,27 @@
             "declKind": "Func",
             "usr": "s:10TerraRTiOS0A0C17setMessageHandleryyySDySSypGcF",
             "mangledName": "$s10TerraRTiOS0A0C17setMessageHandleryyySDySSypGcF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sharingDataAuthorised",
+            "printedName": "sharingDataAuthorised()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C21sharingDataAuthorisedSbyF",
+            "mangledName": "$s10TerraRTiOS0A0C21sharingDataAuthorisedSbyF",
             "moduleName": "TerraRTiOS",
             "declAttributes": [
               "AccessControl"
@@ -6675,357 +7232,357 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 1076,
+      "offset": 1097,
       "length": 60,
       "value": "\"Workout already started, stop it first, then start another\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1161,
+      "offset": 1182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1339,
+      "offset": 1402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1493,
+      "offset": 1605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2274,
+      "offset": 2428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2600,
       "length": 17,
       "value": "\"Started workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2532,
+      "offset": 2729,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2925,
+      "offset": 3193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3377,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "FloatLiteral",
-      "offset": 3660,
+      "offset": 3970,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 4663,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4383,
+      "offset": 4693,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4440,
+      "offset": 4750,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4579,
+      "offset": 4889,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4609,
+      "offset": 4919,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4666,
+      "offset": 4976,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4772,
+      "offset": 5082,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4802,
+      "offset": 5112,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4859,
+      "offset": 5169,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4979,
+      "offset": 5289,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5009,
+      "offset": 5319,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5066,
+      "offset": 5376,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5146,
+      "offset": 5456,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5237,
+      "offset": 5547,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5241,
+      "offset": 5551,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5247,
+      "offset": 5557,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5389,
+      "offset": 5699,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5419,
+      "offset": 5729,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5629,
+      "offset": 5939,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5659,
+      "offset": 5969,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5774,
+      "offset": 6084,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5804,
+      "offset": 6114,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5976,
+      "offset": 6286,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6006,
+      "offset": 6316,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6082,
+      "offset": 6392,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6603,
+      "offset": 6913,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6633,
+      "offset": 6943,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6834,
+      "offset": 7144,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6864,
+      "offset": 7174,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6980,
+      "offset": 7290,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7204,
+      "offset": 7514,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7596,
+      "offset": 7906,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7814,
+      "offset": 8124,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7911,
+      "offset": 8221,
       "length": 16,
       "value": "\"TOTAL_CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8011,
+      "offset": 8321,
       "length": 22,
       "value": "\"BASAL_METABOLIC_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8284,
+      "offset": 8594,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8375,
+      "offset": 8685,
       "length": 17,
       "value": "\"FLIGHTS_CLIMBED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8468,
+      "offset": 8778,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8623,
+      "offset": 8933,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8774,
+      "offset": 9084,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8821,
+      "offset": 9131,
       "length": 2,
       "value": "\"\""
     },
@@ -7035,6 +7592,27 @@
       "offset": 651,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
@@ -7865,70 +8443,70 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 1584,
+      "offset": 1605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 1866,
       "length": 18,
       "value": "\"Starting Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 2018,
       "length": 16,
       "value": "\"Paused Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 2115,
+      "offset": 2171,
       "length": 16,
       "value": "\"Resume Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 2515,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 2857,
+      "offset": 2955,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 3287,
+      "offset": 3390,
       "length": 45,
       "value": "\"Failed to start streaming \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 3434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 3737,
+      "offset": 3840,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Terra.swift",
       "kind": "BooleanLiteral",
-      "offset": 4338,
+      "offset": 4446,
       "length": 4,
       "value": "true"
     },
@@ -8019,14 +8597,14 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2707,
+      "offset": 2710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WatchSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2886,
+      "offset": 2889,
       "length": 5,
       "value": "false"
     },
