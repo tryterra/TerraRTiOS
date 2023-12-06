@@ -104,6 +104,30 @@ public enum WorkoutTypes : Swift.String {
     get
   }
 }
+public enum WorkoutStates : Swift.Int {
+  case PREPARING
+  case USER_STARTING
+  case ACTIVE
+  case USER_PAUSING
+  case USER_PAUSED
+  case AUTO_PAUSING
+  case AUTO_PAUSED
+  case USER_RESUMING
+  case AUTO_RESUMING
+  case USER_ENDING
+  case USER_ENDED
+  case AUTO_ENDING
+  case AUTO_ENDED
+  case AUTO_ENDING_PERMISSION_LOST
+  case AUTO_ENDED_PERMISSION_LOST
+  case TERMINATING
+  case TERMINATED
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public enum ConnectionState : Swift.Int, Swift.Codable {
   case CONNECTING
   case CONNECTED
@@ -171,11 +195,15 @@ public class Terra {
   public func sendMessage(_ data: [Swift.String : Any])
   public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func sharingDataAuthorised() -> Swift.Bool
+  public func setWorkoutStateListener(_ workoutStateListener: @escaping (TerraRTiOS.WorkoutStates) -> Swift.Void)
   @objc deinit
 }
 extension TerraRTiOS.WorkoutTypes : Swift.Equatable {}
 extension TerraRTiOS.WorkoutTypes : Swift.Hashable {}
 extension TerraRTiOS.WorkoutTypes : Swift.RawRepresentable {}
+extension TerraRTiOS.WorkoutStates : Swift.Equatable {}
+extension TerraRTiOS.WorkoutStates : Swift.Hashable {}
+extension TerraRTiOS.WorkoutStates : Swift.RawRepresentable {}
 extension TerraRTiOS.ConnectionState : Swift.Equatable {}
 extension TerraRTiOS.ConnectionState : Swift.Hashable {}
 extension TerraRTiOS.ConnectionState : Swift.RawRepresentable {}

@@ -3380,6 +3380,760 @@
         "moduleName": "TerraRTiOS"
       },
       {
+        "kind": "TypeDecl",
+        "name": "WorkoutStates",
+        "printedName": "WorkoutStates",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PREPARING",
+            "printedName": "PREPARING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO9PREPARINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO9PREPARINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_STARTING",
+            "printedName": "USER_STARTING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO13USER_STARTINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO13USER_STARTINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "ACTIVE",
+            "printedName": "ACTIVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO6ACTIVEyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO6ACTIVEyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_PAUSING",
+            "printedName": "USER_PAUSING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO12USER_PAUSINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO12USER_PAUSINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_PAUSED",
+            "printedName": "USER_PAUSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO11USER_PAUSEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO11USER_PAUSEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_PAUSING",
+            "printedName": "AUTO_PAUSING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO12AUTO_PAUSINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO12AUTO_PAUSINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_PAUSED",
+            "printedName": "AUTO_PAUSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO11AUTO_PAUSEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO11AUTO_PAUSEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_RESUMING",
+            "printedName": "USER_RESUMING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO13USER_RESUMINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO13USER_RESUMINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_RESUMING",
+            "printedName": "AUTO_RESUMING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO13AUTO_RESUMINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO13AUTO_RESUMINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_ENDING",
+            "printedName": "USER_ENDING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO11USER_ENDINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO11USER_ENDINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_ENDED",
+            "printedName": "USER_ENDED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO10USER_ENDEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO10USER_ENDEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_ENDING",
+            "printedName": "AUTO_ENDING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO11AUTO_ENDINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO11AUTO_ENDINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_ENDED",
+            "printedName": "AUTO_ENDED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO10AUTO_ENDEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO10AUTO_ENDEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_ENDING_PERMISSION_LOST",
+            "printedName": "AUTO_ENDING_PERMISSION_LOST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO27AUTO_ENDING_PERMISSION_LOSTyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO27AUTO_ENDING_PERMISSION_LOSTyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "AUTO_ENDED_PERMISSION_LOST",
+            "printedName": "AUTO_ENDED_PERMISSION_LOST",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO26AUTO_ENDED_PERMISSION_LOSTyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO26AUTO_ENDED_PERMISSION_LOSTyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "TERMINATING",
+            "printedName": "TERMINATING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO11TERMINATINGyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO11TERMINATINGyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "TERMINATED",
+            "printedName": "TERMINATED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates.Type) -> TerraRTiOS.WorkoutStates",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.WorkoutStates.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStates",
+                        "printedName": "TerraRTiOS.WorkoutStates",
+                        "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO10TERMINATEDyA2CmF",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO10TERMINATEDyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.WorkoutStates?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO8rawValueACSgSi_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TerraRTiOS13WorkoutStatesO8rawValueSivp",
+            "mangledName": "$s10TerraRTiOS13WorkoutStatesO8rawValueSivp",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TerraRTiOS13WorkoutStatesO8rawValueSivg",
+                "mangledName": "$s10TerraRTiOS13WorkoutStatesO8rawValueSivg",
+                "moduleName": "TerraRTiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10TerraRTiOS13WorkoutStatesO",
+        "mangledName": "$s10TerraRTiOS13WorkoutStatesO",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
@@ -5977,6 +6731,44 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWorkoutStateListener",
+            "printedName": "setWorkoutStateListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.WorkoutStates) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStates",
+                    "printedName": "TerraRTiOS.WorkoutStates",
+                    "usr": "s:10TerraRTiOS13WorkoutStatesO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A0C23setWorkoutStateListeneryyyAA0E6StatesOcF",
+            "mangledName": "$s10TerraRTiOS0A0C23setWorkoutStateListeneryyyAA0E6StatesOcF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -7232,357 +8024,357 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 1097,
+      "offset": 1385,
       "length": 60,
       "value": "\"Workout already started, stop it first, then start another\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1182,
+      "offset": 1470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1402,
+      "offset": 1696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1605,
+      "offset": 1899,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2428,
+      "offset": 2722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 2600,
+      "offset": 2957,
       "length": 17,
       "value": "\"Started workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2729,
+      "offset": 3086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3193,
+      "offset": 3618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 3377,
+      "offset": 3866,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "FloatLiteral",
-      "offset": 3970,
+      "offset": 4583,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4663,
+      "offset": 5276,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4693,
+      "offset": 5306,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4750,
+      "offset": 5363,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 5502,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4919,
+      "offset": 5532,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 4976,
+      "offset": 5589,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5695,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5112,
+      "offset": 5725,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
+      "offset": 5782,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5289,
+      "offset": 5902,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5319,
+      "offset": 5932,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5376,
+      "offset": 5989,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5456,
+      "offset": 6069,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5547,
+      "offset": 6160,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5551,
+      "offset": 6164,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5557,
+      "offset": 6170,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5699,
+      "offset": 6312,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5729,
+      "offset": 6342,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5939,
+      "offset": 6552,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 6582,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6084,
+      "offset": 6697,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6114,
+      "offset": 6727,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6286,
+      "offset": 6899,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6316,
+      "offset": 6929,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6392,
+      "offset": 7005,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6913,
+      "offset": 7526,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6943,
+      "offset": 7556,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7144,
+      "offset": 7754,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7174,
+      "offset": 7784,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7290,
+      "offset": 7897,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7514,
+      "offset": 8121,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7906,
+      "offset": 8644,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8124,
+      "offset": 8862,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8221,
+      "offset": 8959,
       "length": 16,
       "value": "\"TOTAL_CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8321,
+      "offset": 9059,
       "length": 22,
       "value": "\"BASAL_METABOLIC_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 9332,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8685,
+      "offset": 9423,
       "length": 17,
       "value": "\"FLIGHTS_CLIMBED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8778,
+      "offset": 9516,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8933,
+      "offset": 9671,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9084,
+      "offset": 9822,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9131,
+      "offset": 9869,
       "length": 2,
       "value": "\"\""
     },
@@ -7715,357 +8507,357 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 196,
+      "offset": 200,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 224,
+      "offset": 228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 244,
+      "offset": 248,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 274,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 299,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 346,
+      "offset": 350,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 373,
+      "offset": 377,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 404,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 429,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 453,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 479,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 500,
+      "offset": 504,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 546,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 587,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 609,
+      "offset": 613,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 634,
+      "offset": 638,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 196,
+      "offset": 200,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 224,
+      "offset": 228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 244,
+      "offset": 248,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 274,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 299,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 346,
+      "offset": 350,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 373,
+      "offset": 377,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 404,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 429,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 453,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 479,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 500,
+      "offset": 504,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 546,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 587,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 609,
+      "offset": 613,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 634,
+      "offset": 638,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 196,
+      "offset": 200,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 224,
+      "offset": 228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 244,
+      "offset": 248,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 274,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 299,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 346,
+      "offset": 350,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 373,
+      "offset": 377,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 404,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 429,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 453,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 479,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 500,
+      "offset": 504,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 546,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 587,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 609,
+      "offset": 613,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 634,
+      "offset": 638,
       "length": 2,
       "value": "14"
     },
