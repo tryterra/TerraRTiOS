@@ -8433,161 +8433,343 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5537,
+      "offset": 5673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 5711,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5736,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5542,
-      "length": 2,
-      "value": "30"
+      "offset": 5741,
+      "length": 4,
+      "value": "0x01"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5552,
+      "offset": 5749,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5562,
+      "offset": 5792,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5820,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5882,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5900,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5906,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5934,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5977,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5982,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5988,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6017,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6062,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6129,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6134,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6140,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6195,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6221,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6286,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6346,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6353,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6455,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 6462,
+      "length": 6,
+      "value": "1024.0"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5686,
+      "offset": 6693,
+      "length": 13,
+      "value": "\"RR_INTERVAL\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6788,
+      "length": 13,
+      "value": "\"RR_INTERVAL\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6968,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5875,
+      "offset": 7134,
       "length": 14,
       "value": "\"XIAOMI_STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6010,
+      "offset": 7269,
       "length": 7,
       "value": "\"steps\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6077,
+      "offset": 7336,
       "length": 10,
       "value": "\"distance\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6147,
+      "offset": 7406,
       "length": 10,
       "value": "\"calories\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6264,
+      "offset": 7523,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 7639,
       "length": 10,
       "value": "\"CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6499,
+      "offset": 7758,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6891,
+      "offset": 8150,
       "length": 31,
       "value": "\"Core Body Temperature Service\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7058,
+      "offset": 8317,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7072,
+      "offset": 8331,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7171,
+      "offset": 8430,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7185,
+      "offset": 8444,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 7326,
+      "offset": 8585,
       "length": 18,
       "value": "\"CORE_TEMPERATURE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7559,
+      "offset": 8818,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7573,
+      "offset": 8832,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7713,
+      "offset": 8972,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7727,
+      "offset": 8986,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 7851,
+      "offset": 9110,
       "length": 18,
       "value": "\"SKIN_TEMPERATURE\""
     },
