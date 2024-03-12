@@ -164,6 +164,7 @@ public enum TerraWatchOSErrors : Swift.Error {
   case NotInitialised
   case WorkoutAlreadyStarted
   case HealthKitAuthorizationFailed
+  case CompanionAppNotStarted
   case StartWorkoutError
   case StopWorkoutError
   case InvalidWorkoutSessionCreation

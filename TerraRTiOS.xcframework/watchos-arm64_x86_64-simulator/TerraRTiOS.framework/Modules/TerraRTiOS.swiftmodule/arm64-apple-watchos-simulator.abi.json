@@ -5289,6 +5289,43 @@
           },
           {
             "kind": "Var",
+            "name": "CompanionAppNotStarted",
+            "printedName": "CompanionAppNotStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.TerraWatchOSErrors.Type) -> TerraRTiOS.TerraWatchOSErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraWatchOSErrors",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                    "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.TerraWatchOSErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraWatchOSErrors",
+                        "printedName": "TerraRTiOS.TerraWatchOSErrors",
+                        "usr": "s:10TerraRTiOS0A13WatchOSErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS0A13WatchOSErrorsO22CompanionAppNotStartedyA2CmF",
+            "mangledName": "$s10TerraRTiOS0A13WatchOSErrorsO22CompanionAppNotStartedyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
+            "kind": "Var",
             "name": "StartWorkoutError",
             "printedName": "StartWorkoutError",
             "children": [
@@ -8038,371 +8075,385 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1696,
+      "offset": 1714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1899,
+      "offset": 1917,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2722,
+      "offset": 2807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 3199,
       "length": 17,
       "value": "\"Started workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3086,
+      "offset": 3328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3618,
+      "offset": 3860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 3866,
+      "offset": 4108,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "FloatLiteral",
-      "offset": 4583,
+      "offset": 4825,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5276,
+      "offset": 5518,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 5548,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5363,
+      "offset": 5605,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5502,
+      "offset": 5744,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5774,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5589,
+      "offset": 5831,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5695,
+      "offset": 5937,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5725,
+      "offset": 5967,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 6024,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5902,
+      "offset": 6144,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5932,
+      "offset": 6174,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 5989,
+      "offset": 6231,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6069,
+      "offset": 6311,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6160,
+      "offset": 6402,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6164,
+      "offset": 6406,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6170,
+      "offset": 6412,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6312,
+      "offset": 6554,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6342,
+      "offset": 6584,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6552,
+      "offset": 6794,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6582,
+      "offset": 6824,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6697,
+      "offset": 6939,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6727,
+      "offset": 6969,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6899,
+      "offset": 7141,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 6929,
+      "offset": 7171,
       "length": 9,
       "value": "\"_DURATION\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7005,
+      "offset": 7247,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7526,
+      "offset": 7768,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7556,
+      "offset": 7798,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7754,
+      "offset": 7996,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7784,
+      "offset": 8026,
       "length": 6,
       "value": "\"_STATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 7897,
+      "offset": 8139,
       "length": 30,
       "value": "\"Error sending data to device\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8121,
+      "offset": 8339,
       "length": 18,
       "value": "\"Stopping Workout\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8644,
+      "offset": 8516,
+      "length": 35,
+      "value": "\"Cannot open or find Companion App\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
+      "kind": "StringLiteral",
+      "offset": 9119,
       "length": 17,
       "value": "\"Workout stopped\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8862,
+      "offset": 9337,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 8959,
+      "offset": 9434,
       "length": 16,
       "value": "\"TOTAL_CALORIES\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9059,
+      "offset": 9534,
       "length": 22,
       "value": "\"BASAL_METABOLIC_RATE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9332,
+      "offset": 9807,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9423,
+      "offset": 9898,
       "length": 17,
       "value": "\"FLIGHTS_CLIMBED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9516,
+      "offset": 9991,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9671,
+      "offset": 10146,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9822,
+      "offset": 10297,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/WorkoutsController.swift",
       "kind": "StringLiteral",
-      "offset": 9869,
+      "offset": 10344,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 651,
+      "offset": 659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 978,
+      "offset": 998,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1136,
+      "offset": 1156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/HealthKitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1181,
+      "offset": 1201,
       "length": 4,
       "value": "true"
     },
@@ -9130,28 +9181,28 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1086,
+      "offset": 1105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1657,
+      "offset": 1676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1736,
+      "offset": 1755,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "StringLiteral",
-      "offset": 2053,
+      "offset": 2072,
       "length": 25,
       "value": "\"No new samples received\""
     },
