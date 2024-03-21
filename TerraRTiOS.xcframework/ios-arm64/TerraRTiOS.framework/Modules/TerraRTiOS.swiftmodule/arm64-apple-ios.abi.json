@@ -7810,231 +7810,294 @@
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 181,
+      "offset": 180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1186,
+      "offset": 1185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1225,
+      "offset": 1224,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1825,
+      "offset": 1824,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1904,
+      "offset": 1903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 1999,
       "length": 18,
       "value": "\"Developer closed\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2045,
+      "offset": 2044,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2248,
+      "offset": 2247,
       "length": 38,
       "value": "\"Error in receiving message: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2285,
+      "offset": 2284,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2425,
+      "offset": 2424,
       "length": 19,
       "value": "\"Received: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 2553,
+      "offset": 2552,
       "length": 18,
       "value": "\"Incorrect Format\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3244,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3633,
       "length": 11,
       "value": "\"Data Sent\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 3757,
+      "offset": 4214,
       "length": 4,
       "value": "\"op\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4138,
+      "offset": 4595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4949,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4997,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 4530,
+      "offset": 5321,
       "length": 29,
       "value": "\"co.tryterra.terra.heartbeat\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4653,
+      "offset": 5444,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4872,
+      "offset": 5663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4995,
+      "offset": 5786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5101,
+      "offset": 5892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 5172,
+      "offset": 5963,
       "length": 43,
       "value": "\"Server closed, Heartbeat not acknowledged\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5249,
+      "offset": 6040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5330,
+      "offset": 6121,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6533,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5836,
+      "offset": 7011,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6072,
+      "offset": 7247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6138,
+      "offset": 7313,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6165,
+      "offset": 7340,
       "length": 60,
       "value": "\"Websocket connection closed: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6224,
+      "offset": 7399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6359,
+      "offset": 7534,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6390,
+      "offset": 7565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6417,
+      "offset": 7592,
       "length": 81,
       "value": "\"Websocket connection invalidated: \""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 6497,
+      "offset": 7672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7949,
+      "length": 81,
+      "value": "\"Websocket connection closed: \""
+    },
+    {
+      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8029,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 898,
       "length": 15,
       "value": "\"TerraRTiOS.WebSocketClient\""
     },
