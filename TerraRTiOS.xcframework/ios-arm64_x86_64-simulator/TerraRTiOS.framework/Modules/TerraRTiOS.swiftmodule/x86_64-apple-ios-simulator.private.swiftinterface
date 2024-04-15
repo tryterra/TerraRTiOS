@@ -36,6 +36,7 @@ public enum TerraError : Swift.Error {
   case DataTypeNotSupportedForDevice
   case DeviceNotConnected
   case UnknownDevice
+  case WebsocketDisconnected
   public static func == (a: TerraRTiOS.TerraError, b: TerraRTiOS.TerraError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -71,12 +72,6 @@ public struct GatewaySendPayload : Swift.Encodable {
   public func dataName(_ cbuuid: CoreBluetooth.CBUUID) -> Swift.String?
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class WebSocketManager {
-  public func openConnection(token: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
-  public func closeConnection()
-  public func sendData(payload: TerraRTiOS.DataPayload, type: Swift.String)
-  @objc deinit
-}
 extension SwiftUI.Color {
   public static var border: SwiftUI.Color {
     get
@@ -85,6 +80,9 @@ extension SwiftUI.Color {
     get
   }
   public static var button: SwiftUI.Color {
+    get
+  }
+  public static var disabledButton: SwiftUI.Color {
     get
   }
   public static var inverse: SwiftUI.Color {
@@ -173,6 +171,7 @@ public class TerraRT {
   public func sendMessage(_ data: [Swift.String : Any])
   public func setMessageHandler(_ messageHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func setWatchStateChangeListeners(isPairedListener: ((Swift.Bool) -> Swift.Void)?, isAppInstalledListener: ((Swift.Bool) -> Swift.Void)?, isComplicationEnabledListener: ((Swift.Bool) -> Swift.Void)?)
+  public func setWebsocketListener(_ listener: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceList : Foundation.ObservableObject {
