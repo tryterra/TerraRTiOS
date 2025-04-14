@@ -10,6 +10,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "ElliottYu" => "dev@tryterra.co" }
     spec.platform     = :ios
     spec.ios.deployment_target = "13.0"
+    spec.watchos.deployment_target = "8.0"
     spec.source       = { :git => "https://github.com/tryterra/TerraRTiOS.git", :tag => "#{spec.version}"}
     spec.swift_version = "4.2"
     spec.vendored_frameworks = "TerraRTiOS.xcframework"  
