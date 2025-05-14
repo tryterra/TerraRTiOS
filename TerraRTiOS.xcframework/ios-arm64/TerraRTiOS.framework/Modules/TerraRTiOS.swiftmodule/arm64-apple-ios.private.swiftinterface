@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TerraRTiOS
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TerraRTiOS
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import Combine
 import CoreBluetooth
 import CoreMotion
@@ -72,28 +72,28 @@ public struct GatewaySendPayload : Swift.Encodable {
   public func dataName(_ cbuuid: CoreBluetooth.CBUUID) -> Swift.String?
   @objc deinit
 }
-extension SwiftUI.Color {
-  public static var border: SwiftUI.Color {
+extension SwiftUICore.Color {
+  public static var border: SwiftUICore.Color {
     get
   }
-  public static var background: SwiftUI.Color {
+  public static var background: SwiftUICore.Color {
     get
   }
-  public static var button: SwiftUI.Color {
+  public static var button: SwiftUICore.Color {
     get
   }
-  public static var disabledButton: SwiftUI.Color {
+  public static var disabledButton: SwiftUICore.Color {
     get
   }
-  public static var inverse: SwiftUI.Color {
+  public static var inverse: SwiftUICore.Color {
     get
   }
-  public static var accent: SwiftUI.Color {
+  public static var accent: SwiftUICore.Color {
     get
   }
 }
-@_Concurrency.MainActor(unsafe) public struct TerraBLEWidget : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct TerraBLEWidget : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10TerraRTiOS0A9BLEWidgetV4bodyQrvp", 0) __
@@ -208,6 +208,7 @@ extension TerraRTiOS.TerraError : Swift.Hashable {}
 extension TerraRTiOS.DataTypes : Swift.Equatable {}
 extension TerraRTiOS.DataTypes : Swift.Hashable {}
 extension TerraRTiOS.DataTypes : Swift.RawRepresentable {}
+extension TerraRTiOS.TerraBLEWidget : Swift.Sendable {}
 extension TerraRTiOS.Opcode : Swift.Equatable {}
 extension TerraRTiOS.Opcode : Swift.Hashable {}
 extension TerraRTiOS.Opcode : Swift.RawRepresentable {}
