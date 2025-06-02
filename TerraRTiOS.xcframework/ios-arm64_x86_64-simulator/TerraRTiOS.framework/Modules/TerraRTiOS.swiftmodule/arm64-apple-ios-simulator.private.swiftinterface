@@ -157,6 +157,7 @@ public class TerraRT {
   public func connectWithWatchOS() throws
   public func startBluetoothScan(type: TerraRTiOS.Connections, bluetoothLowEnergyFromCache: Swift.Bool = false, callback: @escaping (Swift.Bool) -> Swift.Void = {_ in}) -> TerraRTiOS.TerraBLEWidget?
   public func startBluetoothScan(type: TerraRTiOS.Connections, deviceCallback: @escaping (TerraRTiOS.Device) -> Swift.Void)
+  public func stopBluetoothScan(type: TerraRTiOS.Connections)
   public func connectDevice(_ device: TerraRTiOS.Device, _ connectionCallback: @escaping (Swift.Bool) -> Swift.Void)
   public func stopRealtime(type: TerraRTiOS.Connections)
   public func startRealtime(type: TerraRTiOS.Connections, dataType: Swift.Set<TerraRTiOS.DataTypes>, token: Swift.String, callback: @escaping (TerraRTiOS.Update) -> Swift.Void, connectionCallback: @escaping (Swift.Bool) -> Swift.Void = {_ in })

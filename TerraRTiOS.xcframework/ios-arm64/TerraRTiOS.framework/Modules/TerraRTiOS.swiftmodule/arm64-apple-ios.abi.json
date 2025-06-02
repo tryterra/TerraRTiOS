@@ -4429,6 +4429,33 @@
           },
           {
             "kind": "Function",
+            "name": "stopBluetoothScan",
+            "printedName": "stopBluetoothScan(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Connections",
+                "printedName": "TerraRTiOS.Connections",
+                "usr": "s:10TerraRTiOS11ConnectionsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS0A2RTC17stopBluetoothScan4typeyAA11ConnectionsO_tF",
+            "mangledName": "$s10TerraRTiOS0A2RTC17stopBluetoothScan4typeyAA11ConnectionsO_tF",
+            "moduleName": "TerraRTiOS",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "connectDevice",
             "printedName": "connectDevice(_:_:)",
             "children": [
