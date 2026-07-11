@@ -63,17 +63,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -126,17 +126,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -657,13 +657,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -675,6 +668,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1049,17 +1049,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1081,6 +1081,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1732,17 +1739,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1847,10 +1854,131 @@
           },
           {
             "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Status",
+        "printedName": "Status",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "TerraRTiOS.Status",
+                "usr": "s:10TerraRTiOS6StatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6StatusV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS6StatusV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS6StatusV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS6StatusV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "TerraRTiOS.Status",
+                "usr": "s:10TerraRTiOS6StatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "TerraRTiOS.Status",
+                "usr": "s:10TerraRTiOS6StatusV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS6StatusV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10TerraRTiOS6StatusV2eeoiySbAC_ACtFZ",
+            "moduleName": "TerraRTiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS6StatusV",
+        "mangledName": "$s10TerraRTiOS6StatusV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -1858,6 +1986,115 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatusPayload",
+        "printedName": "StatusPayload",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StatusPayload",
+                "printedName": "TerraRTiOS.StatusPayload",
+                "usr": "s:10TerraRTiOS13StatusPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS13StatusPayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TerraRTiOS13StatusPayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TerraRTiOS13StatusPayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TerraRTiOS13StatusPayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10TerraRTiOS13StatusPayloadV",
+        "mangledName": "$s10TerraRTiOS13StatusPayloadV",
+        "moduleName": "TerraRTiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2513,37 +2750,41 @@
             "moduleName": "TerraRTiOS"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
+            "kind": "Var",
+            "name": "STATUS",
+            "printedName": "STATUS",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TerraRTiOS.Opcode?",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.Opcode.Type) -> TerraRTiOS.Opcode",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Opcode",
                     "printedName": "TerraRTiOS.Opcode",
                     "usr": "s:10TerraRTiOS6OpcodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.Opcode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Opcode",
+                        "printedName": "TerraRTiOS.Opcode",
+                        "usr": "s:10TerraRTiOS6OpcodeO"
+                      }
+                    ]
                   }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                ]
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
-            "moduleName": "TerraRTiOS",
-            "implicit": true,
-            "init_kind": "Designated"
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS6OpcodeO6STATUSyA2CmF",
+            "mangledName": "$s10TerraRTiOS6OpcodeO6STATUSyA2CmF",
+            "moduleName": "TerraRTiOS"
           },
           {
             "kind": "Var",
@@ -2583,6 +2824,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TerraRTiOS.Opcode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Opcode",
+                    "printedName": "TerraRTiOS.Opcode",
+                    "usr": "s:10TerraRTiOS6OpcodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10TerraRTiOS6OpcodeO8rawValueACSgSi_tcfc",
+            "moduleName": "TerraRTiOS",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -2603,17 +2877,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2890,17 +3164,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3027,13 +3301,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3045,6 +3312,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3122,13 +3396,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3140,6 +3407,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3404,17 +3678,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4095,13 +4369,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4113,6 +4380,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5260,20 +5534,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -5293,6 +5553,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5513,17 +5787,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6210,13 +6484,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6228,6 +6495,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6569,31 +6843,32 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           },
           {
             "kind": "Conformance",
@@ -6604,10 +6879,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -6652,35 +6962,6 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       }
@@ -6689,826 +6970,833 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 5,
       "value": "\"ECG\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 5,
       "value": "\"HRV\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 10,
       "value": "\"CALORIES\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 10,
       "value": "\"LOCATION\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 15,
       "value": "\"STEPS_CADENCE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 16,
       "value": "\"FLOORS_CLIMBED\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 11,
       "value": "\"GYROSCOPE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 14,
       "value": "\"ACCELERATION\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 18,
       "value": "\"CORE_TEMPERATURE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 18,
       "value": "\"SKIN_TEMPERATURE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/GattAttributes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/GattAttributes.swift",
       "kind": "Dictionary",
       "offset": 219,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
       "offset": 418,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
       "offset": 466,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
       "offset": 506,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "BooleanLiteral",
       "offset": 336,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 33,
       "value": "\"co.tryterra.terra.corebluetooth\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "BooleanLiteral",
       "offset": 1605,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "Array",
       "offset": 232,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 3,
       "value": "226"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 3,
       "value": "239"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 3,
       "value": "254"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 432,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 534,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 538,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 550,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 554,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 569,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 583,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 2,
       "value": "96"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 3,
       "value": "165"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 686,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 697,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 715,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 806,
       "length": 3,
       "value": "175"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 810,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 822,
       "length": 3,
       "value": "210"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 826,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 837,
       "length": 3,
       "value": "252"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 841,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 855,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 940,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 944,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 956,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 960,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 971,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 975,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 989,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1071,
       "length": 2,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1074,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1086,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1090,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1101,
       "length": 3,
       "value": "246"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1105,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/BLEWidget.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/BLEWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 1119,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 7,
       "value": "\"🚫 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 9,
       "value": "\"⚠️ \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 7,
       "value": "\"👀 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 7,
       "value": "\"🔎 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 165,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 193,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 277,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 333,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
       "kind": "IntegerLiteral",
       "offset": 361,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/Enums\/Opcode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
       "offset": 180,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1184,
       "length": 29,
       "value": "\"co.tryterra.terra.heartbeat\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1393,
+      "offset": 1486,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1432,
+      "offset": 1525,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 9475,
       "length": 49,
       "value": "\"Heartbeat not acknowledged, retrying heart beat\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8470,
+      "offset": 9585,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8937,
+      "offset": 10052,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 9568,
+      "offset": 10795,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 7,
       "value": "\"pause\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 6,
       "value": "\"stop\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/WorkoutEvent.swift",
       "kind": "StringLiteral",
       "offset": 220,
       "length": 8,
       "value": "\"resume\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 27,
       "value": "\"co.tryterra.http.requests\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/HTTPRequestClient.swift",
       "kind": "Dictionary",
       "offset": 695,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 250,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "Array",
       "offset": 320,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "Array",
       "offset": 369,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/BluetoothLeConnectionManager.swift",
       "kind": "Array",
       "offset": 427,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/SessionManager.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/SessionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 390,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "BooleanLiteral",
       "offset": 222,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 6,
       "value": "\"info\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "BooleanLiteral",
       "offset": 4892,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 22,
       "value": "\"Bluetooth Low Energy\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 13,
       "value": "\"iOS Sensors\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/Connections.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 10,
       "value": "\"Watch OS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 120,
       "length": 28,
       "value": "\"https:\/\/api.tryterra.co\/v2\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 24,
       "value": "\"https:\/\/ws.tryterra.co\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 30,
       "value": "\"wss:\/\/ws.tryterra.co\/connect\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 52,
       "value": "\"co.tryterra.terra.bluetooh.low.energy.device.cache\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 33,
       "value": "\"co.tryterra.terra.logging.level\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 38,
       "value": "\"45c67cba-cc7f-437e-a871-068cd002c9df\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 13,
       "value": "\"AccentColor\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 12,
       "value": "\"Background\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 8,
       "value": "\"Border\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1032,
       "length": 8,
       "value": "\"Button\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1158,
       "length": 6,
       "value": "\"Scan\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphoneos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 13,

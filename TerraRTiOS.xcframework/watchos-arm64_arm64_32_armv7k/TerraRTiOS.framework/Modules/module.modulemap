@@ -7,5 +7,4 @@ framework module TerraRTiOS {
 
 module TerraRTiOS.Swift {
   header "TerraRTiOS-Swift.h"
-  requires objc
 }

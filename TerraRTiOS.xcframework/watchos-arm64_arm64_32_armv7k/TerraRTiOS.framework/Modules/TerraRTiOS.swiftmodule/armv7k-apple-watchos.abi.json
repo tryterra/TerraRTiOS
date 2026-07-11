@@ -3124,17 +3124,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4118,17 +4118,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4462,17 +4462,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5039,17 +5039,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5605,17 +5605,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5637,6 +5637,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6223,13 +6230,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6241,6 +6241,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7004,931 +7011,931 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"BADMINTON\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 24,
       "value": "\"BARBELL_SHOULDER_PRESS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 10,
       "value": "\"BASEBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 12,
       "value": "\"BASKETBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 13,
       "value": "\"BENCH_PRESS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 14,
       "value": "\"BENCH_SIT_UP\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 8,
       "value": "\"BIKING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 19,
       "value": "\"BIKING_STATIONARY\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 11,
       "value": "\"BOOT_CAMP\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 8,
       "value": "\"BOXING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 8,
       "value": "\"BURPEE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 598,
       "length": 14,
       "value": "\"CALISTHENICS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 9,
       "value": "\"CRICKET\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 8,
       "value": "\"CRUNCH\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 688,
       "length": 9,
       "value": "\"DANCING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 10,
       "value": "\"DEADLIFT\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 764,
       "length": 25,
       "value": "\"DUMBBELL_CURL_RIGHT_ARM\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 24,
       "value": "\"DUMBBELL_CURL_LEFT_ARM\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 22,
       "value": "\"DUMBBELL_FRONT_RAISE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 24,
       "value": "\"DUMBBELL_LATERAL_RAISE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 37,
       "value": "\"DUMBBELL_TRICEPS_EXTENSION_LEFT_ARM\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 38,
       "value": "\"DUMBBELL_TRICEPS_EXTENSION_RIGHT_ARM\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 36,
       "value": "\"DUMBBELL_TRICEPS_EXTENSION_TWO_ARM\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1240,
       "length": 12,
       "value": "\"ELLIPTICAL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 16,
       "value": "\"EXERCISE_CLASS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1315,
       "length": 9,
       "value": "\"FENCING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1349,
       "length": 14,
       "value": "\"FRISBEE_DISC\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1393,
       "length": 19,
       "value": "\"FOOTBALL_AMERICAN\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 21,
       "value": "\"FOOTBALL_AUSTRALIAN\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1491,
       "length": 15,
       "value": "\"FORWARD_TWIST\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 6,
       "value": "\"GOLF\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 18,
       "value": "\"GUIDED_BREATHING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1599,
       "length": 12,
       "value": "\"GYMNASTICS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1632,
       "length": 10,
       "value": "\"HANDBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1687,
       "length": 34,
       "value": "\"HIGH_INTENSITY_INTERVAL_TRAINING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1740,
       "length": 8,
       "value": "\"HIKING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1771,
       "length": 12,
       "value": "\"ICE_HOCKEY\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1807,
       "length": 13,
       "value": "\"ICE_SKATING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1842,
       "length": 11,
       "value": "\"JUMP_ROPE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1878,
       "length": 14,
       "value": "\"JUMPING_JACK\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1918,
       "length": 15,
       "value": "\"LAT_PULL_DOWN\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 7,
       "value": "\"LUNGE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 1983,
       "length": 14,
       "value": "\"MARTIAL_ARTS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2020,
       "length": 12,
       "value": "\"MEDITATION\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2050,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2078,
       "length": 10,
       "value": "\"PADDLING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2108,
       "length": 9,
       "value": "\"PILATES\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2135,
       "length": 7,
       "value": "\"PLANK\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2166,
       "length": 13,
       "value": "\"RACQUETBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2205,
       "length": 15,
       "value": "\"ROCK_CLIMBING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2246,
       "length": 15,
       "value": "\"ROLLER_HOCKEY\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2280,
       "length": 8,
       "value": "\"ROWING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2315,
       "length": 16,
       "value": "\"ROWING_MACHINE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2351,
       "length": 9,
       "value": "\"RUNNING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2390,
       "length": 19,
       "value": "\"RUNNING_TREADMILL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 7,
       "value": "\"RUGBY\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2454,
       "length": 9,
       "value": "\"SAILING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2483,
       "length": 9,
       "value": "\"SKATING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2511,
       "length": 8,
       "value": "\"SKIING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2544,
       "length": 14,
       "value": "\"SNOWBOARDING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2582,
       "length": 13,
       "value": "\"SNOWSHOEING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2614,
       "length": 8,
       "value": "\"SOCCER\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2643,
       "length": 10,
       "value": "\"SOFTBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2672,
       "length": 8,
       "value": "\"SQUASH\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2698,
       "length": 7,
       "value": "\"SQUAT\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2732,
       "length": 16,
       "value": "\"STAIR_CLIMBING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2783,
       "length": 24,
       "value": "\"STAIR_CLIMBING_MACHINE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2837,
       "length": 19,
       "value": "\"STRENGTH_TRAINING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2879,
       "length": 12,
       "value": "\"STRETCHING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2911,
       "length": 9,
       "value": "\"SURFING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2952,
       "length": 21,
       "value": "\"SWIMMING_OPEN_WATER\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 2999,
       "length": 15,
       "value": "\"SWIMMING_POOL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3039,
       "length": 14,
       "value": "\"TABLE_TENNIS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3072,
       "length": 8,
       "value": "\"TENNIS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3104,
       "length": 13,
       "value": "\"UPPER_TWIST\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3140,
       "length": 12,
       "value": "\"VOLLEYBALL\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3172,
       "length": 9,
       "value": "\"WALKING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3204,
       "length": 12,
       "value": "\"WATER_POLO\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3242,
       "length": 15,
       "value": "\"WEIGHTLIFTING\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3277,
       "length": 9,
       "value": "\"WORKOUT\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutTypes.swift",
       "kind": "StringLiteral",
       "offset": 3303,
       "length": 6,
       "value": "\"YOGA\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 7,
       "value": "\"🚫 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 9,
       "value": "\"⚠️ \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 7,
       "value": "\"👀 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Logger.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 405,
       "length": 7,
       "value": "\"🔎 \""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 299,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 377,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 429,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 504,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 587,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 613,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/WorkoutStateEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 638,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 250,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/ConnectionState.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 7,
       "value": "\"STEPS\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 10,
       "value": "\"LOCATION\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 10,
       "value": "\"CALORIES\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 12,
       "value": "\"HEART_RATE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 24,
       "value": "\"HEART_RATE_VARIABILITY\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 7,
       "value": "\"SPEED\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 10,
       "value": "\"DISTANCE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 15,
       "value": "\"STEPS_CADENCE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 16,
       "value": "\"FLOORS_CLIMBED\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 513,
       "length": 11,
       "value": "\"GYROSCOPE\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Enums\/ReadTypes.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 14,
       "value": "\"ACCELERATION\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/Stream.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "Dictionary",
       "offset": 344,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/SensorManagerWatch.swift",
       "kind": "BooleanLiteral",
       "offset": 449,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/iOS\/TerraRT.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/TerraRT.swift",
       "kind": "BooleanLiteral",
       "offset": 222,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 120,
       "length": 28,
       "value": "\"https:\/\/api.tryterra.co\/v2\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 24,
       "value": "\"https:\/\/ws.tryterra.co\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 30,
       "value": "\"wss:\/\/ws.tryterra.co\/connect\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 52,
       "value": "\"co.tryterra.terra.bluetooh.low.energy.device.cache\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 33,
       "value": "\"co.tryterra.terra.logging.level\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Documents\/GitHub\/TerraRTiOS\/TerraRTiOS\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 38,
       "value": "\"45c67cba-cc7f-437e-a871-068cd002c9df\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 13,
       "value": "\"AccentColor\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 12,
       "value": "\"Background\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 8,
       "value": "\"Border\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1032,
       "length": 8,
       "value": "\"Button\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1158,
       "length": 6,
       "value": "\"Scan\""
     },
     {
-      "filePath": "\/Users\/elliottyu\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-bfciwukzjwtrjyfpphmyzqpnuwrw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-watchos\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 13,

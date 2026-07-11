@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "TerraRTiOS"
-    spec.version      = "0.3.12"
+    spec.version      = "0.3.13"
     spec.summary      = "Realtime iOS SDKs support for Terra"
     spec.description  = <<-DESC
                 SDKs support for iOS to connect with Terra's Websocket API for BLE devices and more
@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
     spec.watchos.deployment_target = "8.0"
     spec.source       = { :git => "https://github.com/tryterra/TerraRTiOS.git", :tag => "#{spec.version}"}
     spec.swift_version = "4.2"
-    spec.vendored_frameworks = "TerraRTiOS.xcframework"  
+    spec.vendored_frameworks = "TerraRTiOS.xcframework"
 end
