@@ -7076,22 +7076,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 278,
+      "length": 7,
+      "value": "9.80665"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 418,
+      "offset": 520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 466,
+      "offset": 568,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Sensors\/SensorManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 506,
+      "offset": 608,
       "length": 5,
       "value": "false"
     },
@@ -7553,28 +7560,28 @@
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "StringLiteral",
-      "offset": 9475,
+      "offset": 9711,
       "length": 49,
       "value": "\"Heartbeat not acknowledged, retrying heart beat\""
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9585,
+      "offset": 9821,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 10052,
+      "offset": 10288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/WebSockets\/GatewayClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 10795,
+      "offset": 11031,
       "length": 4,
       "value": "1000"
     },
