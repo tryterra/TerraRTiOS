@@ -7831,8 +7831,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Stream.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 32,
+      "value": "\"co.tryterra.terra.watch.stream\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Stream.swift",
+      "kind": "Array",
+      "offset": 446,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/WatchOS\/Stream.swift",
       "kind": "Dictionary",
-      "offset": 344,
+      "offset": 517,
       "length": 3,
       "value": "[]"
     },
