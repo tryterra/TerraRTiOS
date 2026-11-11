@@ -1649,6 +1649,43 @@
             "moduleName": "TerraRTiOS"
           },
           {
+            "kind": "Var",
+            "name": "JUMP_COUNT",
+            "printedName": "JUMP_COUNT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraRTiOS.DataTypes.Type) -> TerraRTiOS.DataTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataTypes",
+                    "printedName": "TerraRTiOS.DataTypes",
+                    "usr": "s:10TerraRTiOS9DataTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraRTiOS.DataTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataTypes",
+                        "printedName": "TerraRTiOS.DataTypes",
+                        "usr": "s:10TerraRTiOS9DataTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10TerraRTiOS9DataTypesO10JUMP_COUNTyA2CmF",
+            "mangledName": "$s10TerraRTiOS9DataTypesO10JUMP_COUNTyA2CmF",
+            "moduleName": "TerraRTiOS"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -6531,6 +6568,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraRTiOS"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7068,6 +7119,13 @@
       "value": "\"SKIN_TEMPERATURE\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Enums\/DataTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 12,
+      "value": "\"JUMP_COUNT\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/GattAttributes.swift",
       "kind": "Dictionary",
       "offset": 219,
@@ -7119,7 +7177,7 @@
     {
       "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/TerraBLE.swift",
       "kind": "BooleanLiteral",
-      "offset": 1605,
+      "offset": 1768,
       "length": 5,
       "value": "false"
     },
@@ -7766,6 +7824,139 @@
       "offset": 404,
       "length": 38,
       "value": "\"45c67cba-cc7f-437e-a871-068cd002c9df\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 38,
+      "value": "\"00005301-0000-0041-4c50-574953450000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 38,
+      "value": "\"00005302-0000-0041-4c50-574953450000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 38,
+      "value": "\"00005303-0000-0041-4c50-574953450000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 872,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 920,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1063,
+      "length": 4,
+      "value": "0xA4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1108,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1162,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1211,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1259,
+      "length": 4,
+      "value": "0xAD"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1305,
+      "length": 4,
+      "value": "0xAF"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/RenphoJumpRope.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/JumpRopeSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/JumpRopeSession.swift",
+      "kind": "Array",
+      "offset": 1182,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/JumpRopeSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/JumpRopeSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/TerraRTiOSPackage\/TerraRTiOSPackage\/TerraRTiOS\/iOS\/Bluetooth\/JumpRopeSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1337,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/TerraRTiOS-cbsfzeuppreothejxpwfqtjjcsov\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraRTiOS\/IntermediateBuildFilesPath\/TerraRTiOS.build\/Release-iphonesimulator\/TerraRTiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",

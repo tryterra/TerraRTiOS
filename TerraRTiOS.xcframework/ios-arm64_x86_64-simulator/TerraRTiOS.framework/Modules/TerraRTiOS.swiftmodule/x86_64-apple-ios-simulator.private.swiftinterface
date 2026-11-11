@@ -58,6 +58,7 @@ public enum DataTypes : Swift.String, Swift.Codable {
   case ACCELERATION
   case CORE_TEMPERATURE
   case SKIN_TEMPERATURE
+  case JUMP_COUNT
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
