@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "TerraRTiOS"
-    spec.version      = "0.3.16"
+    spec.version      = "0.3.17"
     spec.summary      = "Realtime iOS SDKs support for Terra"
     spec.description  = <<-DESC
                 SDKs support for iOS to connect with Terra's Websocket API for BLE devices and more
